@@ -8,3 +8,4 @@ Exercícios e atividades desenvolvidos durante a disciplina de Programação Ori
 | [Métodos](Metodos/README.md) | Criação e utilização de métodos em Java |
 | [Classes e objetos](ClassesEObjetos/README.md) | Criação de classes, atributos, métodos e objetos |
 | [Sobrecarga de construtores](SobrecargaConstrutores/README.md) | Criação de objetos por meio de construtores com diferentes parâmetros |
+| [Encapsulamento, GET e SET](EncapsulamentoGetSet/README.md) | Visibilidade, pacotes, construtores e métodos acessores |
