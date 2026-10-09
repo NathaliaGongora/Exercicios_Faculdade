@@ -11,3 +11,4 @@ Exercícios e atividades desenvolvidos durante a disciplina de Programação Ori
 | [Encapsulamento, GET e SET](EncapsulamentoGetSet/README.md) | Visibilidade, pacotes, construtores e métodos acessores |
 | [Herança](Heranca/README.md) | Superclasses, subclasses e reutilização de código com `extends` |
 | [Encapsulamento com interfaces](EncapsulamentoInterfaces/README.md) | Atributos privados, interfaces, métodos abstratos e `@Override` |
+| [Associação, agregação e composição](AssociacaoAgregacaoComposicao/README.md) | Relacionamentos entre classes com diferentes níveis de dependência |
