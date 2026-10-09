@@ -1,53 +1,14 @@
 package SegundoSemestre.ProgramacaoOrientadaObjetos.Heranca;
 
-class Pessoa {
-
-    private String email;
-    private String celular;
-
-    public Pessoa() {
-    }
-
-    public Pessoa(String email, String celular) {
-
-        this.email = email;
-        this.celular = celular;
-    }
-
-    public String getEmail() {
-
-        return email;
-    }
-
-    public void setEmail(String email) {
-
-        this.email = email;
-    }
-
-    public String getCelular() {
-
-        return celular;
-    }
-
-    public void setCelular(String celular) {
-
-        this.celular = celular;
-    }
-}
-
-class PessoaFisica extends Pessoa {
+class PessoaEmpresa {
 
     private String nome;
-    private String cpf;
+    private String endereco;
 
-    public PessoaFisica() {
-    }
+    public PessoaEmpresa(String nome, String endereco) {
 
-    public PessoaFisica(String nome, String cpf, String email, String celular) {
-
-        super(email, celular);
         this.nome = nome;
-        this.cpf = cpf;
+        this.endereco = endereco;
     }
 
     public String getNome() {
@@ -60,6 +21,35 @@ class PessoaFisica extends Pessoa {
         this.nome = nome;
     }
 
+    public String getEndereco() {
+
+        return endereco;
+    }
+
+    public void setEndereco(String endereco) {
+
+        this.endereco = endereco;
+    }
+
+    public String exibirDados() {
+
+        return "Nome: " + nome
+                + "\nEndereco: " + endereco;
+    }
+}
+
+class PessoaFisicaCliente extends PessoaEmpresa {
+
+    private String cpf;
+    private String email;
+
+    public PessoaFisicaCliente(String nome, String cpf, String endereco, String email) {
+
+        super(nome, endereco);
+        this.cpf = cpf;
+        this.email = email;
+    }
+
     public String getCpf() {
 
         return cpf;
@@ -70,38 +60,35 @@ class PessoaFisica extends Pessoa {
         this.cpf = cpf;
     }
 
-    public String imprimir() {
+    public String getEmail() {
 
-        return "Nome: " + nome
+        return email;
+    }
+
+    public void setEmail(String email) {
+
+        this.email = email;
+    }
+
+    @Override
+    public String exibirDados() {
+
+        return super.exibirDados()
                 + "\nCPF: " + cpf
-                + "\nEmail: " + getEmail()
-                + "\nCelular: " + getCelular();
+                + "\nEmail: " + email;
     }
 }
 
-class PessoaJuridica extends Pessoa {
+class PessoaJuridicaCliente extends PessoaEmpresa {
 
-    private String razaoSocial;
     private String cnpj;
+    private String email;
 
-    public PessoaJuridica() {
-    }
+    public PessoaJuridicaCliente(String nome, String cnpj, String endereco, String email) {
 
-    public PessoaJuridica(String razaoSocial, String cnpj, String email, String celular) {
-
-        super(email, celular);
-        this.razaoSocial = razaoSocial;
+        super(nome, endereco);
         this.cnpj = cnpj;
-    }
-
-    public String getRazaoSocial() {
-
-        return razaoSocial;
-    }
-
-    public void setRazaoSocial(String razaoSocial) {
-
-        this.razaoSocial = razaoSocial;
+        this.email = email;
     }
 
     public String getCnpj() {
@@ -114,12 +101,63 @@ class PessoaJuridica extends Pessoa {
         this.cnpj = cnpj;
     }
 
-    public String imprimir() {
+    public String getEmail() {
 
-        return "Razao social: " + razaoSocial
+        return email;
+    }
+
+    public void setEmail(String email) {
+
+        this.email = email;
+    }
+
+    @Override
+    public String exibirDados() {
+
+        return super.exibirDados()
                 + "\nCNPJ: " + cnpj
-                + "\nEmail: " + getEmail()
-                + "\nCelular: " + getCelular();
+                + "\nEmail: " + email;
+    }
+}
+
+class FuncionarioCadastro extends PessoaEmpresa {
+
+    private String cpf;
+    private double salario;
+
+    public FuncionarioCadastro(String nome, String cpf, String endereco, double salario) {
+
+        super(nome, endereco);
+        this.cpf = cpf;
+        this.salario = salario;
+    }
+
+    public String getCpf() {
+
+        return cpf;
+    }
+
+    public void setCpf(String cpf) {
+
+        this.cpf = cpf;
+    }
+
+    public double getSalario() {
+
+        return salario;
+    }
+
+    public void setSalario(double salario) {
+
+        this.salario = salario;
+    }
+
+    @Override
+    public String exibirDados() {
+
+        return super.exibirDados()
+                + "\nCPF: " + cpf
+                + String.format("\nSalario: R$ %.2f", salario);
     }
 }
 
@@ -127,26 +165,44 @@ public class Exercicio01 {
 
     public static void main(String[] args) {
 
-        PessoaFisica pessoaFisica = new PessoaFisica(
+        PessoaFisicaCliente cliente1 = new PessoaFisicaCliente(
                 "Mariana Oliveira",
                 "123.456.789-00",
-                "mariana@email.com",
-                "15999999999"
+                "Rua das Flores, 100",
+                "mariana@email.com"
         );
 
-        PessoaJuridica pessoaJuridica = new PessoaJuridica(
+        PessoaFisicaCliente cliente2 = new PessoaFisicaCliente(
+                "Carlos Souza",
+                "987.654.321-00",
+                "Avenida Central, 250",
+                "carlos@email.com"
+        );
+
+        PessoaJuridicaCliente empresa = new PessoaJuridicaCliente(
                 "Loja Central Ltda",
                 "12.345.678/0001-00",
-                "contato@lojacentral.com",
-                "1533334444"
+                "Rua Comercial, 50",
+                "contato@lojacentral.com"
         );
 
-        System.out.println("Pessoa fisica");
-        System.out.println(pessoaFisica.imprimir());
+        FuncionarioCadastro funcionario = new FuncionarioCadastro(
+                "Ana Lima",
+                "111.222.333-44",
+                "Rua Azul, 80",
+                3200
+        );
 
-        System.out.println();
+        System.out.println("Cliente pessoa fisica 1");
+        System.out.println(cliente1.exibirDados());
 
-        System.out.println("Pessoa juridica");
-        System.out.println(pessoaJuridica.imprimir());
+        System.out.println("\nCliente pessoa fisica 2");
+        System.out.println(cliente2.exibirDados());
+
+        System.out.println("\nCliente pessoa juridica");
+        System.out.println(empresa.exibirDados());
+
+        System.out.println("\nFuncionario");
+        System.out.println(funcionario.exibirDados());
     }
 }
