@@ -9,3 +9,4 @@ Exercícios e atividades desenvolvidos durante a disciplina de Programação Ori
 | [Classes e objetos](ClassesEObjetos/README.md) | Criação de classes, atributos, métodos e objetos |
 | [Sobrecarga de construtores](SobrecargaConstrutores/README.md) | Criação de objetos por meio de construtores com diferentes parâmetros |
 | [Encapsulamento, GET e SET](EncapsulamentoGetSet/README.md) | Visibilidade, pacotes, construtores e métodos acessores |
+| [Herança](Heranca/README.md) | Superclasses, subclasses e reutilização de código com `extends` |
