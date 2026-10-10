@@ -1,3 +1,5 @@
+-- Cria o banco de dados de um consultorio medico.
+
 CREATE DATABASE ConsultorioMedico;
 GO
 
@@ -18,8 +20,7 @@ CREATE TABLE Exame (
     resultado VARCHAR(500),
     cod_paciente INT NOT NULL,
 
-    CONSTRAINT FK_Exame_Paciente
-        FOREIGN KEY (cod_paciente)
+    CONSTRAINT FK_Exame_Paciente FOREIGN KEY (cod_paciente)
         REFERENCES Paciente(cod_paciente)
 );
 
@@ -43,12 +44,9 @@ CREATE TABLE Consulta (
     cod_paciente INT NOT NULL,
     CRM VARCHAR(20) NOT NULL,
 
-    CONSTRAINT FK_Consulta_Paciente
-        FOREIGN KEY (cod_paciente)
+    CONSTRAINT FK_Consulta_Paciente FOREIGN KEY (cod_paciente)
         REFERENCES Paciente(cod_paciente),
-
-    CONSTRAINT FK_Consulta_Medico
-        FOREIGN KEY (CRM)
+    CONSTRAINT FK_Consulta_Medico FOREIGN KEY (CRM)
         REFERENCES Medico(CRM)
 );
 
@@ -56,14 +54,9 @@ CREATE TABLE MedicoEspecialidade (
     CRM VARCHAR(20) NOT NULL,
     cod_especialidade INT NOT NULL,
 
-    CONSTRAINT PK_MedicoEspecialidade
-        PRIMARY KEY (CRM, cod_especialidade),
-
-    CONSTRAINT FK_MedicoEspecialidade_Medico
-        FOREIGN KEY (CRM)
+    CONSTRAINT PK_MedicoEspecialidade PRIMARY KEY (CRM, cod_especialidade),
+    CONSTRAINT FK_MedicoEspecialidade_Medico FOREIGN KEY (CRM)
         REFERENCES Medico(CRM),
-
-    CONSTRAINT FK_MedicoEspecialidade_Especialidade
-        FOREIGN KEY (cod_especialidade)
+    CONSTRAINT FK_MedicoEspecialidade_Especialidade FOREIGN KEY (cod_especialidade)
         REFERENCES Especialidade(cod_especialidade)
 );

@@ -7,4 +7,4 @@ Exercicios e atividades de Banco de Dados desenvolvidos durante o segundo semest
 | Pasta | Conteudo |
 |---|---|
 | [ModelagemDeDados](ModelagemDeDados/README.md) | Modelos Entidade-Relacionamento com entidades, atributos e cardinalidades |
-| [ConsultorioMedico](ConsultorioMedico/README.md) | Script SQL Server do banco de dados de um consultorio medico |
+| [CriacaoDeBancos](CriacaoDeBancos/README.md) | Dez exercicios de criacao de bancos de dados no SQL Server |
