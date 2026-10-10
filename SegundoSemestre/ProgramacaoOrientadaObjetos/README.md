@@ -12,3 +12,4 @@ Exercícios e atividades desenvolvidos durante a disciplina de Programação Ori
 | [Herança](Heranca/README.md) | Superclasses, subclasses e reutilização de código com `extends` |
 | [Encapsulamento com interfaces](EncapsulamentoInterfaces/README.md) | Atributos privados, interfaces, métodos abstratos e `@Override` |
 | [Associação, agregação e composição](AssociacaoAgregacaoComposicao/README.md) | Relacionamentos entre classes com diferentes níveis de dependência |
+| [Polimorfismo](Polimorfismo/README.md) | Sobrescrita de métodos, classes abstratas e sobrecarga |
