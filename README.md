@@ -7,7 +7,7 @@ O conteúdo está organizado por semestre e tema para registrar minha evolução
 ## Conteúdo
 
 - [1º semestre — Construção de Algoritmos](PrimeiroSemestre/README.md)
-- [2º semestre — Programação Orientada a Objetos](SegundoSemestre/README.md)
+- [2º semestre — Programação Orientada a Objetos e Banco de Dados](SegundoSemestre/README.md)
 
 ## Tecnologias e conceitos
 
@@ -18,5 +18,7 @@ O conteúdo está organizado por semestre e tema para registrar minha evolução
 - Laços de repetição simples e encadeados
 - Vetores e funções
 - Programação Orientada a Objetos
+- Banco de Dados
+- Modelo Entidade-Relacionamento
 
 > Os códigos representam atividades acadêmicas e diferentes etapas do meu aprendizado.
