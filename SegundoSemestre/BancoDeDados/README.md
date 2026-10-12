@@ -8,3 +8,4 @@ Exercicios e atividades de Banco de Dados desenvolvidos durante o segundo semest
 |---|---|
 | [ModelagemDeDados](ModelagemDeDados/README.md) | Modelos Entidade-Relacionamento com entidades, atributos e cardinalidades |
 | [CriacaoDeBancos](CriacaoDeBancos/README.md) | Dez exercicios de criacao de bancos de dados no SQL Server |
+| [ConsultasSQL](ConsultasSQL/README.md) | Listas resolvidas de consultas SQL com `SELECT` |
