@@ -1,0 +1,43 @@
+@startuml
+left to right direction
+skinparam packageStyle rectangle
+
+actor "Usuário residencial" as usuario
+actor "Administrador" as administrador
+actor "Serviço de IA/OCR" as ia
+
+rectangle "Lumio" {
+  usecase "Realizar login" as login
+  usecase "Manter perfil" as perfil
+  usecase "Enviar conta\nde energia" as enviar
+  usecase "Extrair dados\nda conta" as extrair
+  usecase "Confirmar dados\nextraídos" as confirmar
+  usecase "Consultar histórico\nde consumo" as historico
+  usecase "Gerar relatório\nmensal" as relatorio
+  usecase "Acompanhar metas" as metas
+  usecase "Simular economia\nsolar" as simular
+  usecase "Estimar potencial\nsolar" as estimar
+  usecase "Solicitar proposta" as proposta
+  usecase "Gerenciar usuários" as gerenciar
+}
+
+usuario -- login
+usuario -- perfil
+usuario -- enviar
+usuario -- confirmar
+usuario -- historico
+usuario -- relatorio
+usuario -- metas
+usuario -- simular
+usuario -- proposta
+administrador -- gerenciar
+administrador -- relatorio
+ia -- extrair
+ia -- estimar
+
+enviar ..> extrair : <<include>>
+enviar ..> confirmar : <<include>>
+relatorio ..> historico : <<include>>
+simular ..> estimar : <<include>>
+proposta ..> simular : <<extend>>
+@enduml
