@@ -1,0 +1,86 @@
+@startuml
+top to bottom direction
+skinparam monochrome true
+skinparam shadowing false
+
+abstract class Usuario {
+  - id: int
+  - nome: String
+  - email: String
+  + autenticar()
+  + atualizarCadastro()
+}
+
+class Cliente {
+  - cpf: String
+  - telefone: String
+  + solicitarAutenticacaoDoisFatores()
+  + autorizarUsoDeDados()
+}
+
+class Funcionario {
+  - matricula: String
+  + consultarCadastro(cliente)
+}
+
+class Atendente {
+  + cadastrarCliente(cliente)
+}
+
+class Gerente {
+  + gerarRelatorio()
+}
+
+class Credencial {
+  - id: int
+  - metodo: String
+  - identificador: String
+  - ativa: bool
+  + validar(): bool
+  + desativar()
+}
+
+class ConsultaCpf {
+  - id: int
+  - dataConsulta: DateTime
+  - origem: String
+  - resultado: String
+  + consultarReceitaFederal(cpf)
+  + consultarSerasa(cpf)
+}
+
+class Consentimento {
+  - id: int
+  - finalidade: String
+  - dataAceite: DateTime
+  - dataRevogacao: DateTime
+  + registrarAceite()
+  + revogar()
+}
+
+class ImportacaoInstagram {
+  - id: int
+  - dataImportacao: DateTime
+  - status: String
+  + verificarConsentimento(): bool
+  + importarDados()
+}
+
+class Relatorio {
+  - id: int
+  - dataGeracao: DateTime
+  - tipo: String
+  + gerar()
+  + exportarPdf()
+}
+
+Usuario <|-- Cliente
+Usuario <|-- Funcionario
+Funcionario <|-- Atendente
+Funcionario <|-- Gerente
+Usuario "1" *-- "1..*" Credencial : possui
+Cliente "1" -- "0..*" ConsultaCpf : solicita
+Cliente "1" -- "0..*" Consentimento : registra
+ImportacaoInstagram ..> Consentimento : verifica
+Gerente ..> Relatorio : gera
+@enduml

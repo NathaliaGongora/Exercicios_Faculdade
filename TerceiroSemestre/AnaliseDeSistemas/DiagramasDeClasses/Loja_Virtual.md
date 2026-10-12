@@ -2,6 +2,10 @@
 
 Modelo para registrar clientes, pedidos, itens, pagamentos e entregas.
 
+![Diagrama de classes de loja virtual](Loja_Virtual.svg)
+
+[Fonte PlantUML editável](Loja_Virtual.puml)
+
 ```mermaid
 classDiagram
 direction TB

@@ -1,0 +1,66 @@
+@startuml
+top to bottom direction
+skinparam monochrome true
+skinparam shadowing false
+
+abstract class Usuario {
+  - id: int
+  - nome: String
+  - email: String
+  + realizarLogin()
+}
+
+class Leitor {
+  - numeroCadastro: String
+  + consultarAcervo()
+  + solicitarEmprestimo(exemplar)
+}
+
+class Bibliotecario {
+  - matricula: String
+  + cadastrarLivro(livro)
+  + registrarDevolucao(emprestimo)
+}
+
+class Livro {
+  - id: int
+  - titulo: String
+  - autor: String
+  - isbn: String
+  + consultarExemplares()
+}
+
+class Exemplar {
+  - tombo: int
+  - status: String
+  - localizacao: String
+  + estaDisponivel(): bool
+  + atualizarStatus(status)
+}
+
+class Emprestimo {
+  - id: int
+  - dataRetirada: Date
+  - dataPrevista: Date
+  - dataDevolucao: Date
+  + registrar()
+  + calcularAtraso(): int
+}
+
+class Reserva {
+  - id: int
+  - dataReserva: DateTime
+  - status: String
+  + confirmar()
+  + cancelar()
+}
+
+Usuario <|-- Leitor
+Usuario <|-- Bibliotecario
+Livro "1" *-- "1..*" Exemplar : possui
+Leitor "1" -- "0..*" Emprestimo : realiza
+Exemplar "1" -- "0..*" Emprestimo : aparece no historico
+Leitor "1" -- "0..*" Reserva : solicita
+Livro "1" -- "0..*" Reserva : recebe
+Bibliotecario ..> Emprestimo : registra
+@enduml

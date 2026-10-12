@@ -2,6 +2,10 @@
 
 Modelo para controlar leitores, acervo, empréstimos e reservas.
 
+![Diagrama de classes de biblioteca](Biblioteca.svg)
+
+[Fonte PlantUML editável](Biblioteca.puml)
+
 ```mermaid
 classDiagram
 direction TB

@@ -2,6 +2,10 @@
 
 Modelo de classes para inscrição de skatistas, envio de vídeos e avaliação das participações.
 
+![Diagrama de classes do campeonato de skate](Campeonato_Skate.svg)
+
+[Fonte PlantUML editável](Campeonato_Skate.puml)
+
 ```mermaid
 classDiagram
 direction TB

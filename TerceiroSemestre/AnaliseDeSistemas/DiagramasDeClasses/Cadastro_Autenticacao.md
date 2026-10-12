@@ -2,6 +2,10 @@
 
 Modelo baseado no exercício “Modelagem Frankenstein”, com cadastro, autenticação, consulta de CPF e consentimento para importar dados.
 
+![Diagrama de classes de cadastro e autenticação](Cadastro_Autenticacao.svg)
+
+[Fonte PlantUML editável](Cadastro_Autenticacao.puml)
+
 ```mermaid
 classDiagram
 direction TB

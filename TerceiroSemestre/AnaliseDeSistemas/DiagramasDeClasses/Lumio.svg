@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1650" height="1120" viewBox="0 0 1650 1120">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10" fill="none" stroke="#111" stroke-width="1.4"/></marker><marker id="triangle" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="14" markerHeight="14" orient="auto"><path d="M 1 1 L 11 6 L 1 11 Z" fill="white" stroke="#111" stroke-width="1.3"/></marker></defs>
+<rect x="0" y="0" width="1650" height="1120" fill="white"/>
+<text x="40" y="36" font-family="Arial, sans-serif" font-size="23" font-weight="bold" fill="#111">Diagrama de classes — Lumio</text>
+<polyline points="820.0,197.0 820.0,255.0" fill="none" stroke="#111" stroke-width="1.7"/>
+<rect x="785.0" y="212.0" width="94.0" height="21" fill="white"/>
+<text x="832.0" y="226.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#222">administra</text>
+<text x="820.0" y="221.0" font-family="Arial, sans-serif" font-size="13" fill="#111">1</text>
+<text x="820.0" y="223.0" font-family="Arial, sans-serif" font-size="13" fill="#111">0..*</text>
+<polyline points="820.0,460.0 820.0,520.0" fill="none" stroke="#111" stroke-width="1.7"/>
+<rect x="789.0" y="476.0" width="86.0" height="21" fill="white"/>
+<text x="832.0" y="490.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#222">acompanha</text>
+<text x="820.0" y="484.0" font-family="Arial, sans-serif" font-size="13" fill="#111">1</text>
+<text x="820.0" y="488.0" font-family="Arial, sans-serif" font-size="13" fill="#111">0..*</text>
+<polyline points="980.0,357.5 1000.0,360.0 1000.0,350.0 1180.0,350.0 1195.0,351.5" fill="none" stroke="#111" stroke-width="1.7"/>
+<rect x="1047.0" y="324.0" width="86.0" height="21" fill="white"/>
+<text x="1090.0" y="338.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#222">manifesta</text>
+<text x="1007.8" y="357.0" font-family="Arial, sans-serif" font-size="13" fill="#111">1</text>
+<text x="1167.1" y="344.7" font-family="Arial, sans-serif" font-size="13" fill="#111">0..*</text>
+<polyline points="660.0,612.0 640.0,610.0 360.0,610.0 360.0,960.0 345.0,963.0" fill="none" stroke="#111" stroke-width="1.7"/>
+<rect x="341.0" y="771.0" width="62.0" height="21" fill="white"/>
+<text x="372.0" y="785.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#222">recebe</text>
+<text x="632.1" y="605.2" font-family="Arial, sans-serif" font-size="13" fill="#111">1</text>
+<text x="372.5" y="953.5" font-family="Arial, sans-serif" font-size="13" fill="#111">0..*</text>
+<polyline points="660.0,612.0 640.0,610.0 640.0,830.0 580.0,830.0 575.0,850.0" fill="none" stroke="#111" stroke-width="1.7"/>
+<rect x="621.0" y="706.0" width="62.0" height="21" fill="white"/>
+<text x="652.0" y="720.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#222">recebe</text>
+<text x="632.1" y="605.2" font-family="Arial, sans-serif" font-size="13" fill="#111">1</text>
+<text x="581.8" y="818.8" font-family="Arial, sans-serif" font-size="13" fill="#111">0..*</text>
+<polyline points="820.0,704.0 820.0,830.0 960.0,830.0 965.0,850.0" fill="none" stroke="#111" stroke-width="1.7"/>
+<rect x="859.0" y="804.0" width="62.0" height="21" fill="white"/>
+<text x="890.0" y="818.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#222">define</text>
+<text x="820.0" y="728.0" font-family="Arial, sans-serif" font-size="13" fill="#111">1</text>
+<text x="958.2" y="818.8" font-family="Arial, sans-serif" font-size="13" fill="#111">0..*</text>
+<polyline points="980.0,612.0 1000.0,610.0 1180.0,610.0 1195.0,612.0" fill="none" stroke="#111" stroke-width="1.7"/>
+<polygon points="980.0,612.0 997.7,618.3 1013.8,608.6 996.1,602.3" fill="white" stroke="#111" stroke-width="1.6"/>
+<rect x="1059.0" y="584.0" width="62.0" height="21" fill="white"/>
+<text x="1090.0" y="598.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#222">possui</text>
+<text x="1007.9" y="605.2" font-family="Arial, sans-serif" font-size="13" fill="#111">1</text>
+<text x="1167.2" y="604.3" font-family="Arial, sans-serif" font-size="13" fill="#111">0..*</text>
+<polyline points="1355.0,704.0 1360.0,720.0 1360.0,830.0 1355.0,850.0" fill="none" stroke="#111" stroke-width="1.7"/>
+<rect x="1348.0" y="761.0" width="48.0" height="21" fill="white"/>
+<text x="1372.0" y="775.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#222">gera</text>
+<text x="1363.4" y="726.7" font-family="Arial, sans-serif" font-size="13" fill="#111">1</text>
+<text x="1361.8" y="818.8" font-family="Arial, sans-serif" font-size="13" fill="#111">0..*</text>
+<rect x="660" y="55" width="320" height="142" rx="2" fill="white" stroke="#111" stroke-width="2"/>
+<line x1="660" y1="91" x2="980" y2="91" stroke="#111" stroke-width="1.5"/>
+<text x="820.0" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#111">EmpresaContratante</text>
+<text x="673" y="112" font-family="Arial, sans-serif" font-size="14" fill="#111">- id: int</text>
+<text x="673" y="133" font-family="Arial, sans-serif" font-size="14" fill="#111">- nome: String</text>
+<text x="673" y="154" font-family="Arial, sans-serif" font-size="14" fill="#111">- dominio: String</text>
+<line x1="660" y1="164" x2="980" y2="164" stroke="#aaa" stroke-width="1"/>
+<text x="673" y="183" font-family="Arial, sans-serif" font-size="13" fill="#111">+ gerenciarUsuarios()</text>
+<rect x="660" y="255" width="320" height="205" rx="2" fill="white" stroke="#111" stroke-width="2"/>
+<line x1="660" y1="291" x2="980" y2="291" stroke="#111" stroke-width="1.5"/>
+<text x="820.0" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#111">Usuario</text>
+<text x="673" y="312" font-family="Arial, sans-serif" font-size="14" fill="#111">- id: int</text>
+<text x="673" y="333" font-family="Arial, sans-serif" font-size="14" fill="#111">- nome: String</text>
+<text x="673" y="354" font-family="Arial, sans-serif" font-size="14" fill="#111">- email: String</text>
+<text x="673" y="375" font-family="Arial, sans-serif" font-size="14" fill="#111">- senhaHash: String</text>
+<text x="673" y="396" font-family="Arial, sans-serif" font-size="14" fill="#111">- criadoEm: DateTime</text>
+<line x1="660" y1="406" x2="980" y2="406" stroke="#aaa" stroke-width="1"/>
+<text x="673" y="425" font-family="Arial, sans-serif" font-size="13" fill="#111">+ autenticar(email, senha): bool</text>
+<text x="673" y="445" font-family="Arial, sans-serif" font-size="13" fill="#111">+ atualizarCadastro()</text>
+<rect x="1195" y="270" width="320" height="163" rx="2" fill="white" stroke="#111" stroke-width="2"/>
+<line x1="1195" y1="306" x2="1515" y2="306" stroke="#111" stroke-width="1.5"/>
+<text x="1355.0" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#111">RegistroInteresse</text>
+<text x="1208" y="327" font-family="Arial, sans-serif" font-size="14" fill="#111">- id: int</text>
+<text x="1208" y="348" font-family="Arial, sans-serif" font-size="14" fill="#111">- dataManifestacao: DateTime</text>
+<text x="1208" y="369" font-family="Arial, sans-serif" font-size="14" fill="#111">- status: String</text>
+<line x1="1195" y1="379" x2="1515" y2="379" stroke="#aaa" stroke-width="1"/>
+<text x="1208" y="398" font-family="Arial, sans-serif" font-size="13" fill="#111">+ registrarInteresse()</text>
+<text x="1208" y="418" font-family="Arial, sans-serif" font-size="13" fill="#111">+ atualizarStatus(status)</text>
+<rect x="660" y="520" width="320" height="184" rx="2" fill="white" stroke="#111" stroke-width="2"/>
+<line x1="660" y1="556" x2="980" y2="556" stroke="#111" stroke-width="1.5"/>
+<text x="820.0" y="545" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#111">Residencia</text>
+<text x="673" y="577" font-family="Arial, sans-serif" font-size="14" fill="#111">- id: int</text>
+<text x="673" y="598" font-family="Arial, sans-serif" font-size="14" fill="#111">- endereco: String</text>
+<text x="673" y="619" font-family="Arial, sans-serif" font-size="14" fill="#111">- tipo: String</text>
+<text x="673" y="640" font-family="Arial, sans-serif" font-size="14" fill="#111">- ucDistribuidora: String</text>
+<line x1="660" y1="650" x2="980" y2="650" stroke="#aaa" stroke-width="1"/>
+<text x="673" y="669" font-family="Arial, sans-serif" font-size="13" fill="#111">+ consultarConsumo()</text>
+<text x="673" y="689" font-family="Arial, sans-serif" font-size="13" fill="#111">+ calcularEconomia()</text>
+<rect x="25" y="850" width="320" height="226" rx="2" fill="white" stroke="#111" stroke-width="2"/>
+<line x1="25" y1="886" x2="345" y2="886" stroke="#111" stroke-width="1.5"/>
+<text x="185.0" y="875" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#111">ContaEnergia</text>
+<text x="38" y="907" font-family="Arial, sans-serif" font-size="14" fill="#111">- id: int</text>
+<text x="38" y="928" font-family="Arial, sans-serif" font-size="14" fill="#111">- arquivo: String</text>
+<text x="38" y="949" font-family="Arial, sans-serif" font-size="14" fill="#111">- mesReferencia: String</text>
+<text x="38" y="970" font-family="Arial, sans-serif" font-size="14" fill="#111">- consumoKwh: double</text>
+<text x="38" y="991" font-family="Arial, sans-serif" font-size="14" fill="#111">- valorTotal: double</text>
+<text x="38" y="1012" font-family="Arial, sans-serif" font-size="14" fill="#111">- grupoTarifario: String</text>
+<line x1="25" y1="1022" x2="345" y2="1022" stroke="#aaa" stroke-width="1"/>
+<text x="38" y="1041" font-family="Arial, sans-serif" font-size="13" fill="#111">+ extrairDados()</text>
+<text x="38" y="1061" font-family="Arial, sans-serif" font-size="13" fill="#111">+ confirmarDados()</text>
+<rect x="415" y="850" width="320" height="184" rx="2" fill="white" stroke="#111" stroke-width="2"/>
+<line x1="415" y1="886" x2="735" y2="886" stroke="#111" stroke-width="1.5"/>
+<text x="575.0" y="875" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#111">Recomendacao</text>
+<text x="428" y="907" font-family="Arial, sans-serif" font-size="14" fill="#111">- id: int</text>
+<text x="428" y="928" font-family="Arial, sans-serif" font-size="14" fill="#111">- tipo: String</text>
+<text x="428" y="949" font-family="Arial, sans-serif" font-size="14" fill="#111">- titulo: String</text>
+<text x="428" y="970" font-family="Arial, sans-serif" font-size="14" fill="#111">- descricao: String</text>
+<line x1="415" y1="980" x2="735" y2="980" stroke="#aaa" stroke-width="1"/>
+<text x="428" y="999" font-family="Arial, sans-serif" font-size="13" fill="#111">+ gerar()</text>
+<text x="428" y="1019" font-family="Arial, sans-serif" font-size="13" fill="#111">+ marcarComoVista()</text>
+<rect x="805" y="850" width="320" height="184" rx="2" fill="white" stroke="#111" stroke-width="2"/>
+<line x1="805" y1="886" x2="1125" y2="886" stroke="#111" stroke-width="1.5"/>
+<text x="965.0" y="875" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#111">Meta</text>
+<text x="818" y="907" font-family="Arial, sans-serif" font-size="14" fill="#111">- id: int</text>
+<text x="818" y="928" font-family="Arial, sans-serif" font-size="14" fill="#111">- kwhAlvo: double</text>
+<text x="818" y="949" font-family="Arial, sans-serif" font-size="14" fill="#111">- anoAlvo: int</text>
+<text x="818" y="970" font-family="Arial, sans-serif" font-size="14" fill="#111">- dataMeta: Date</text>
+<line x1="805" y1="980" x2="1125" y2="980" stroke="#aaa" stroke-width="1"/>
+<text x="818" y="999" font-family="Arial, sans-serif" font-size="13" fill="#111">+ definirAlvo(kwh)</text>
+<text x="818" y="1019" font-family="Arial, sans-serif" font-size="13" fill="#111">+ consultarProgresso()</text>
+<rect x="1195" y="520" width="320" height="184" rx="2" fill="white" stroke="#111" stroke-width="2"/>
+<line x1="1195" y1="556" x2="1515" y2="556" stroke="#111" stroke-width="1.5"/>
+<text x="1355.0" y="545" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#111">Equipamento</text>
+<text x="1208" y="577" font-family="Arial, sans-serif" font-size="14" fill="#111">- id: int</text>
+<text x="1208" y="598" font-family="Arial, sans-serif" font-size="14" fill="#111">- nome: String</text>
+<text x="1208" y="619" font-family="Arial, sans-serif" font-size="14" fill="#111">- potenciaW: double</text>
+<text x="1208" y="640" font-family="Arial, sans-serif" font-size="14" fill="#111">- fabricante: String</text>
+<text x="1208" y="661" font-family="Arial, sans-serif" font-size="14" fill="#111">- quantidade: int</text>
+<line x1="1195" y1="671" x2="1515" y2="671" stroke="#aaa" stroke-width="1"/>
+<text x="1208" y="690" font-family="Arial, sans-serif" font-size="13" fill="#111">+ estimarConsumo(horasPorDia): double</text>
+<rect x="1195" y="850" width="320" height="163" rx="2" fill="white" stroke="#111" stroke-width="2"/>
+<line x1="1195" y1="886" x2="1515" y2="886" stroke="#111" stroke-width="1.5"/>
+<text x="1355.0" y="875" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#111">ConsumoEstimado</text>
+<text x="1208" y="907" font-family="Arial, sans-serif" font-size="14" fill="#111">- id: int</text>
+<text x="1208" y="928" font-family="Arial, sans-serif" font-size="14" fill="#111">- mesReferencia: String</text>
+<text x="1208" y="949" font-family="Arial, sans-serif" font-size="14" fill="#111">- horasPorDia: double</text>
+<text x="1208" y="970" font-family="Arial, sans-serif" font-size="14" fill="#111">- valorEstimado: double</text>
+<line x1="1195" y1="980" x2="1515" y2="980" stroke="#aaa" stroke-width="1"/>
+<text x="1208" y="999" font-family="Arial, sans-serif" font-size="13" fill="#111">+ calcular()</text>
+</svg>

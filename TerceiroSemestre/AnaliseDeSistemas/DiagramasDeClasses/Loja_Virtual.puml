@@ -1,0 +1,62 @@
+@startuml
+top to bottom direction
+skinparam monochrome true
+skinparam shadowing false
+
+class Cliente {
+  - id: int
+  - nome: String
+  - email: String
+  - cpf: String
+  + atualizarCadastro()
+  + consultarPedidos()
+}
+
+class Produto {
+  - id: int
+  - nome: String
+  - descricao: String
+  - preco: double
+  - quantidadeEstoque: int
+  + atualizarEstoque(quantidade)
+  + estaDisponivel(): bool
+}
+
+class Pedido {
+  - id: int
+  - dataCriacao: DateTime
+  - status: String
+  + calcularTotal(): double
+  + cancelar()
+}
+
+class ItemPedido {
+  - quantidade: int
+  - precoUnitario: double
+  + calcularSubtotal(): double
+}
+
+class Pagamento {
+  - id: int
+  - forma: String
+  - valor: double
+  - status: String
+  + autorizar(): bool
+  + estornar()
+}
+
+class Entrega {
+  - id: int
+  - endereco: String
+  - codigoRastreio: String
+  - dataPrevista: Date
+  + atualizarRastreio()
+  + confirmarEntrega()
+}
+
+Cliente "1" -- "0..*" Pedido : realiza
+Pedido "1" *-- "1..*" ItemPedido : contem
+ItemPedido "0..*" -- "1" Produto : referencia
+Pedido "1" *-- "0..1" Pagamento : possui
+Pedido "1" *-- "0..1" Entrega : organiza
+@enduml

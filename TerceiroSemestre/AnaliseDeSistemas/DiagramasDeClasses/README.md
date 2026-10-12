@@ -18,15 +18,15 @@ Material da aula de Análise de Sistemas. O diagrama de classes mostra a estrutu
 
 O Lumio continua como projeto principal. Os quatro exemplos genéricos reaproveitam os domínios dos diagramas de casos de uso para manter os materiais relacionados.
 
-| Sistema | Conteúdo | Diagrama editável |
+| Sistema | Conteúdo | Prévia | Fonte editável |
 |---|---|---|
-| Lumio | Usuários, residências, contas de energia, metas e recomendações | [Lumio.md](Lumio.md) |
-| Campeonato virtual de skate | Skatistas, campeonatos, vídeos, inscrições e avaliações | [Campeonato_Skate.md](Campeonato_Skate.md) |
-| Cadastro e autenticação | Usuários, credenciais, validação de CPF e consentimentos | [Cadastro_Autenticacao.md](Cadastro_Autenticacao.md) |
-| Biblioteca | Leitores, livros, exemplares, empréstimos e reservas | [Biblioteca.md](Biblioteca.md) |
-| Loja virtual | Clientes, pedidos, produtos, pagamentos e entregas | [Loja_Virtual.md](Loja_Virtual.md) |
+| Lumio | Usuários, residências, contas de energia, metas e recomendações | [SVG](Lumio.svg) | [PlantUML](Lumio.puml) |
+| Campeonato virtual de skate | Skatistas, campeonatos, vídeos, inscrições e avaliações | [SVG](Campeonato_Skate.svg) | [PlantUML](Campeonato_Skate.puml) |
+| Cadastro e autenticação | Usuários, credenciais, validação de CPF e consentimentos | [SVG](Cadastro_Autenticacao.svg) | [PlantUML](Cadastro_Autenticacao.puml) |
+| Biblioteca | Leitores, livros, exemplares, empréstimos e reservas | [SVG](Biblioteca.svg) | [PlantUML](Biblioteca.puml) |
+| Loja virtual | Clientes, pedidos, produtos, pagamentos e entregas | [SVG](Loja_Virtual.svg) | [PlantUML](Loja_Virtual.puml) |
 
-Cada página contém o diagrama em Mermaid, que o GitHub exibe e mantém como texto editável.
+Cada página Markdown contém também uma versão Mermaid para visualização rápida no GitHub. Os arquivos PlantUML são fontes editáveis e os SVGs podem ser baixados ou inseridos em trabalhos.
 
 ## Critérios dos modelos
 

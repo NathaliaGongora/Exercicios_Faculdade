@@ -2,6 +2,10 @@
 
 Modelo de classes para acompanhar residências, contas de energia, metas de consumo e recomendações.
 
+![Diagrama de classes do Lumio](Lumio.svg)
+
+[Fonte PlantUML editável](Lumio.puml)
+
 ```mermaid
 classDiagram
 direction TB
