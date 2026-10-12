@@ -1,6 +1,8 @@
 # Exercicio 06 - Controle de pedidos
 
-O pedido pertence a um cliente e a um vendedor. Os produtos do pedido ficam em itens separados, onde a quantidade e registrada. A oferta guarda o fornecedor e o preco de cada produto.
+O modelo registra o pedido, o cliente, o vendedor e os produtos. A tabela `ITEM_PEDIDO` guarda a quantidade de cada produto no pedido. A tabela `OFERTA` relaciona cada produto ao fornecedor e ao preco da lista.
+
+Foi usado um identificador interno para o produto, porque o codigo mostrado na lista nao e unico: o codigo `008` aparece para duas marcas diferentes. O codigo do fornecedor tambem e texto para preservar os zeros a esquerda.
 
 ```mermaid
 erDiagram
@@ -12,17 +14,17 @@ erDiagram
     FORNECEDOR ||--o{ OFERTA : fornece
 
     CLIENTE {
-        int id_cliente PK
-        string nome
+        string cod_cliente PK
+        string razao_social
     }
     VENDEDOR {
-        int id_vendedor PK
+        string cod_vendedor PK
         string nome
     }
     PEDIDO {
-        int id_pedido PK
-        int id_cliente FK
-        int id_vendedor FK
+        string numero_pedido PK
+        string cod_cliente FK
+        string cod_vendedor FK
         date data_pedido
     }
     PRODUTO {
@@ -32,19 +34,19 @@ erDiagram
         string marca
     }
     ITEM_PEDIDO {
-        int id_item PK
-        int id_pedido FK
-        int id_produto FK
+        string numero_pedido PK, FK
+        int id_produto PK, FK
         int quantidade
     }
     FORNECEDOR {
-        int id_fornecedor PK
-        string nome
+        string cod_fornecedor PK
     }
     OFERTA {
         int id_oferta PK
         int id_produto FK
-        int id_fornecedor FK
+        string cod_fornecedor FK
         decimal preco
     }
 ```
+
+Observacao: no exemplo, o pedido contem os codigos `101`, `004`, `012` e `068`, mas a lista de precos mostra `001`, `004`, `005` e `008`. Assim, somente o produto de codigo `004` aparece nos dois documentos. Alem disso, para pedidos futuros com o codigo `008`, seria necessario registrar tambem a marca (ou outro identificador) para saber qual produto foi escolhido.
