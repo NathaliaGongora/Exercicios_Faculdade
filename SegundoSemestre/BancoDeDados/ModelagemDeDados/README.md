@@ -14,5 +14,5 @@ As siglas `PK` e `FK` representam chave primaria e chave estrangeira.
 | [Exercicio 06](Exercicio06.md) | Controle de pedidos |
 | [Exercicio 07](Exercicio07.md) | Controle de estagios |
 | [Exercicio 08](Exercicio08.md) | Sistema de pedagios |
-| [Exercicio 09](Exercicio09.md) | Sistema bancario |
+| [Exercicio 09](Exercicio09.md) | Sistema bancario, com script SQL e imagem do DER |
 | [Exercicio 10](Exercicio10.md) | Clinicas medicas |
