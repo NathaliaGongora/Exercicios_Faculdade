@@ -87,10 +87,10 @@ GO
 
 -- Exercicio 05: criar a coluna numero e separar o numero do endereco.
 ALTER TABLE Cliente
-ADD numero varchar(10) NULL;
+ADD numero varchar(100) NULL;
 
 UPDATE Cliente
-SET numero = LTRIM(RTRIM(SUBSTRING(endereco, CHARINDEX(',', endereco) + 1, LEN(endereco))))
+SET numero = TRIM(SUBSTRING(endereco, CHARINDEX(',', endereco) + 1, LEN(endereco)))
 WHERE endereco IS NOT NULL
   AND CHARINDEX(',', endereco) > 0;
 GO
@@ -98,7 +98,7 @@ GO
 -- Exercicio 06: remover o numero da casa do campo endereco.
 -- Os numeros ja estao guardados na coluna Cliente.numero.
 UPDATE Cliente
-SET endereco = LTRIM(RTRIM(LEFT(endereco, CHARINDEX(',', endereco) - 1)))
+SET endereco = TRIM(SUBSTRING(endereco, 0, CHARINDEX(',', endereco)))
 WHERE endereco IS NOT NULL
   AND CHARINDEX(',', endereco) > 0;
 GO
