@@ -7,3 +7,4 @@ Aprendizados e atividades de modelagem de sistemas com UML.
 | Pasta | Conteúdo |
 |---|---|
 | [CasosDeUso](CasosDeUso/README.md) | Conceitos, critérios de modelagem e diagramas de casos de uso |
+| [DiagramasDeClasses](DiagramasDeClasses/README.md) | Classes, atributos, métodos, visibilidade e relacionamentos UML |
