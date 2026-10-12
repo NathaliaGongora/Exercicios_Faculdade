@@ -20,3 +20,7 @@ O primeiro exercicio corresponde ao modelo oficial do consultorio medico. Os dem
 ## Execucao
 
 Cada arquivo cria um banco independente. Abra apenas o exercicio desejado no SQL Server Management Studio e execute todo o script.
+
+## Exemplo da aula
+
+O arquivo [ExemploAulaDDLTransporte.sql](ExemploAulaDDLTransporte.sql) cria o banco `Transporte`, com veiculos, motoristas, passageiros, cargas, viagens e manutencoes. Ele complementa os dez exercicios da lista e demonstra a criacao de tabelas e relacionamentos com chaves primarias e estrangeiras.
