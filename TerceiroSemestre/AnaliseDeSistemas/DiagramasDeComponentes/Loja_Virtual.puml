@@ -1,0 +1,25 @@
+@startuml
+top to bottom direction
+skinparam monochrome true
+skinparam shadowing false
+skinparam componentStyle uml2
+
+component "Loja virtual" as app
+component "Contas de clientes" as left
+component "Catálogo de produtos" as middle
+component "Pedidos" as right
+component "Pagamentos" as support_left
+component "Entrega" as support_right
+component "Serviço de dados" as repo
+database "Banco de dados" as db
+
+app --> left : Clientes
+app --> middle : Produtos
+app --> right : Compras
+right ..> support_right : <<use>> Envio
+middle ..> support_left : <<use>> Dados do pedido
+support_left ..> repo
+support_right ..> repo
+repo ..> db
+
+@enduml

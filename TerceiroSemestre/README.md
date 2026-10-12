@@ -6,4 +6,4 @@ Materiais e atividades desenvolvidos durante o terceiro semestre de Análise e D
 
 | Pasta | Conteúdo |
 |---|---|
-| [AnaliseDeSistemas](AnaliseDeSistemas/README.md) | Aprendizados de UML: casos de uso e diagramas de classes |
+| [AnaliseDeSistemas](AnaliseDeSistemas/README.md) | Aprendizados de UML e engenharia de requisitos: casos de uso, classes, componentes e especificação de requisitos |
