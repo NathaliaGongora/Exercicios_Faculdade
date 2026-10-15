@@ -11,6 +11,7 @@ a página inicial `index.html` e seus arquivos de apoio.
 | [03 — Introdução ao HTML](Aula_03_Introducao_HTML/README.md) | Textos, links, imagens, tabelas e listas | 2 da lista, 4 dos slides e 4 complementares |
 | [04 — HTML5](Aula_04_HTML5/README.md) | Semântica, campos, validação e recursos de mídia | 10 práticas complementares aos slides |
 | [05 — Formulários](Aula_05_Formularios/README.md) | Controles de formulário e inscrição em cursos | 1 da lista e 9 complementares |
+| [06 — Containers](Aula_06_Containers/README.md) | Agrupamento com div, span e elementos semânticos | 10 práticas complementares aos slides |
 
 ## Como consultar
 
@@ -22,7 +23,7 @@ Os links do GitHub mostram o código-fonte. Para visualizar as páginas funciona
 baixe ou clone o repositório e abra os arquivos HTML no navegador, mantendo os
 arquivos de apoio nos mesmos locais.
 
-A atividade [Cursos e inscrição](Aula_05_Formularios/01_Cursos_E_Inscricao/README.md)
+A atividade [Cursos e inscrição](Aula_05_Formularios/Exercicio01_Curso&Inscricao/README.md)
 reúne suas duas páginas e o JavaScript em uma pasta própria. Seu README explica
 o fluxo e a configuração da API.
 
@@ -33,4 +34,4 @@ separadamente das propostas do professor.
 
 ## Padrão de nomes
 
-Pastas usam palavras separadas por underline, sem espaços ou acentos. Aulas e atividades têm numeração com dois dígitos. A página inicial de cada atividade se chama `index.html`; arquivos de apoio usam nomes em minúsculas.
+Aulas usam palavras separadas por underline. As atividades seguem `Exercicio01_NomeDoTema`, sem espaços ou acentos. A atividade de inscrição usa `Exercicio01_Curso&Inscricao`. A página inicial de cada atividade se chama `index.html`; arquivos de apoio usam nomes em minúsculas.

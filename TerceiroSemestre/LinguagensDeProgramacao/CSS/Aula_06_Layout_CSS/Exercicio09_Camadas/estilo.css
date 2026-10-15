@@ -1,0 +1,44 @@
+/* Estilos do exercício: Camadas */
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 24px;
+    color: #182333;
+    background: #fafafa;
+}
+input, button, textarea, select {
+    font: inherit;
+    padding: 6px;
+}
+button {
+    cursor: pointer;
+}
+label {
+    display: block;
+    margin-top: 12px;
+}
+textarea {
+    max-width: 100%;
+}
+.area {
+    position: relative;
+    height: 250px;
+}
+.um, .dois {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    padding: 16px;
+}
+.um {
+    background: #bad3f5;
+    z-index: 1;
+}
+.dois {
+    background: #ffce9f;
+    top: 70px;
+    left: 70px;
+    z-index: 2;
+}

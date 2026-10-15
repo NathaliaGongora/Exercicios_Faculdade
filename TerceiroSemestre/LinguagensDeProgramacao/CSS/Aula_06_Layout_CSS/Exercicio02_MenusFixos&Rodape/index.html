@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--
+Exercício 02 — Menus Fixos e Rodape
+Origem: Lista do professor
+Crie uma página HTML que tenha a seguinte estrutura de layout:
+Um menu superior fixo no topo da página.
+Um menu lateral à esquerda que ocupe uma parte da largura da página.
+Uma área de conteúdo à direita do menu lateral.
+Um rodapé fixo na parte inferior da página.
+Use a propriedade position do CSS para posicionar os elementos da seguinte maneira:
+O menu superior deve ter position: fixed; para permanecer fixo no topo da página.
+O menu lateral deve ter position: fixed; para permanecer fixo à esquerda da página.
+A área de conteúdo deve ter margin-left para deixar espaço para o menu lateral e não ser ocultada por ele.
+O rodapé deve ter position: fixed; para permanecer fixo na parte inferior da página.
+Personalize os estilos e os conteúdos dos menus e do conteúdo conforme desejar.
+
+-->
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menus Fixos e Rodape</title>
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+<nav class="topo">
+<a href="#inicio">Início</a> <a href="#sobre">Sobre</a> <a href="#contato">Contato</a>
+</nav>
+<nav class="lateral">
+<a href="#inicio">Menu 1</a>
+<a href="#sobre">Menu 2</a>
+<a href="#contato">Menu 3</a>
+</nav>
+<main>
+<h1 id="inicio">Conteúdo principal</h1>
+<p id="sobre">Estudo de posicionamento fixo.</p>
+<p id="contato">Página de demonstração.</p>
+</main>
+<footer>Meu site — exemplo acadêmico</footer>
+</body>
+</html>

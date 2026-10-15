@@ -1,0 +1,31 @@
+/* Estilos do exercício: Cor Aleatoria */
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 24px;
+    color: #182333;
+    background: #fafafa;
+}
+input, button, textarea, select {
+    font: inherit;
+    padding: 6px;
+}
+button {
+    cursor: pointer;
+}
+label {
+    display: block;
+    margin-top: 12px;
+}
+textarea {
+    max-width: 100%;
+}
+#caixa {
+    width: 240px;
+    height: 180px;
+    padding: 20px;
+    margin-top: 20px;
+    background: #d6e5ff;
+}

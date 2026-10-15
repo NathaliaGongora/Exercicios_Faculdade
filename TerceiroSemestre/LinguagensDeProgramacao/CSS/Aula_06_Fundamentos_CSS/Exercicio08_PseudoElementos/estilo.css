@@ -1,0 +1,31 @@
+/* Estilos do exercício: Pseudo Elementos */
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 24px;
+    color: #182333;
+    background: #fafafa;
+}
+input, button, textarea, select {
+    font: inherit;
+    padding: 6px;
+}
+button {
+    cursor: pointer;
+}
+label {
+    display: block;
+    margin-top: 12px;
+}
+textarea {
+    max-width: 100%;
+}
+p::first-letter {
+    font-size: 36px;
+    color: navy;
+}
+li::marker {
+    color: #a13610;
+}

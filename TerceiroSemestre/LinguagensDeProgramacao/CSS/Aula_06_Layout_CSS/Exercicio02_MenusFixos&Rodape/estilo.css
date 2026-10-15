@@ -1,0 +1,66 @@
+/* Estilos do exercício: Menus Fixos e Rodape */
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 24px;
+    color: #182333;
+    background: #fafafa;
+}
+input, button, textarea, select {
+    font: inherit;
+    padding: 6px;
+}
+button {
+    cursor: pointer;
+}
+label {
+    display: block;
+    margin-top: 12px;
+}
+textarea {
+    max-width: 100%;
+}
+body {
+    margin: 0;
+}
+.topo, footer {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    background: #333;
+    color: white;
+    padding: 12px;
+    text-align: center;
+}
+.topo {
+    top: 0;
+    height: 48px;
+}
+a {
+    color: white;
+}
+.lateral {
+    position: fixed;
+    top: 48px;
+    bottom: 44px;
+    left: 0;
+    width: 20%;
+    overflow: auto;
+    background: #333;
+    padding: 12px;
+    overflow-wrap: anywhere;
+}
+.lateral a {
+    display: block;
+    margin-bottom: 20px;
+}
+main {
+    margin-left: 20%;
+    padding: 65px 24px;
+}
+footer {
+    bottom: 0;
+    height: 44px;
+}

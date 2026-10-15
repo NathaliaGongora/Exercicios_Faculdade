@@ -11,7 +11,7 @@ Declaração de variáveis, tipos, operações numéricas, strings, template str
 Abra a pasta Fundamentos no VS Code e use o terminal, com o Node.js instalado:
 
 ```bash
-node Exercicio01.js
+node "Exercicio01_QuatroOperacoes/script.js"
 ```
 
 Troque o nome do arquivo para executar outro exercício. Cada arquivo funciona sozinho, com valores de exemplo no código e saída no console. Não precisa instalar bibliotecas nem criar uma página HTML para esta lista.
@@ -22,19 +22,19 @@ Troque o nome do arquivo para executar outro exercício. Cada arquivo funciona s
 
 Escreva um programa que declare duas variáveis numéricas e realize as quatro operações matemáticas básicas (+, -, *, /). Imprima os resultados no console.
 
-[Ver resolução](Exercicio01.js)
+[Ver resolução](Exercicio01_QuatroOperacoes/README.md)
 
 ### Exercício 02
 
 Faça um programa que mostre os números impares em um intervalo de 0 a 100.
 
-[Ver resolução](Exercicio02.js)
+[Ver resolução](Exercicio02_NumerosImpares/README.md)
 
 ### Exercício 03
 
 Faça um programa que mostre a quantidade de caracteres para o texto “Disciplina de Programação para web”.
 
-[Ver resolução](Exercicio03.js)
+[Ver resolução](Exercicio03_QuantidadeDeCaracteres/README.md)
 
 ### Exercício 04
 
@@ -46,37 +46,37 @@ A variável nome possui o conteúdo “Edson Martin Feitosa”.
 
 Deve mostrar edson.feitosa@facens.br
 
-[Ver resolução](Exercicio04.js)
+[Ver resolução](Exercicio04_EmailInstitucional/README.md)
 
 ### Exercício 05
 
 Escreva um programa que imprima os números de 1 a 10 no console usando um loop. Os número devem ser separados com um traço, ex.: 1 – 2 – 3 - ... – 10. Observação: após o número 10 não pode ter um traço.
 
-[Ver resolução](Exercicio05.js)
+[Ver resolução](Exercicio05_SequenciaComTracos/README.md)
 
 ### Exercício 06
 
 Faça uma função que mostre o dobro do número passado. Caso o número seja menor ou igual a zero deve mostrar a mensagem “Só é aceito números positivos maiores que zero”.
 
-[Ver resolução](Exercicio06.js)
+[Ver resolução](Exercicio06_DobroPositivo/README.md)
 
 ### Exercício 07
 
 Escreva uma função que receba uma string como argumento e retorne a string invertida.
 
-[Ver resolução](Exercicio07.js)
+[Ver resolução](Exercicio07_StringInvertida/README.md)
 
 ### Exercício 08
 
 Escreva uma função que recebe uma string como argumento e retorna o número de vogais presentes nessa string. Considere apenas vogais minúsculas (a, e, i, o, u).
 
-[Ver resolução](Exercicio08.js)
+[Ver resolução](Exercicio08_ContarVogais/README.md)
 
 ### Exercício 09
 
 Escreva uma função que recebe um endereço de e-mail como argumento e retorna true se o e-mail for válido ou false caso contrário. Um e-mail válido deve conter um único símbolo '@' e pelo menos um ponto '.' após o '@'.
 
-[Ver resolução](Exercicio09.js)
+[Ver resolução](Exercicio09_ValidarEmail/README.md)
 
 ### Exercício 10
 
@@ -84,7 +84,7 @@ Escreva uma função que verifique se uma determinada string é um palíndromo (
 
 Exemplo: arara
 
-[Ver resolução](Exercicio10.js)
+[Ver resolução](Exercicio10_Palindromo/README.md)
 
 ## Observações
 

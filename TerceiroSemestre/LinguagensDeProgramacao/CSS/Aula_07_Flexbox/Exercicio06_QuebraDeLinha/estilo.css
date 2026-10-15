@@ -1,0 +1,38 @@
+/* Estilos do exercício: Quebra De Linha */
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 24px;
+    color: #182333;
+    background: #fafafa;
+}
+input, button, textarea, select {
+    font: inherit;
+    padding: 6px;
+}
+button {
+    cursor: pointer;
+}
+label {
+    display: block;
+    margin-top: 12px;
+}
+textarea {
+    max-width: 100%;
+}
+.container {
+    display: flex;
+    padding: 16px;
+    border: 2px solid #58739c;
+    flex-wrap: wrap;
+}
+.item {
+    padding: 20px;
+    background: #dbe8fb;
+    border: 1px solid #789;
+}
+.item {
+    flex: 0 0 130px;
+}

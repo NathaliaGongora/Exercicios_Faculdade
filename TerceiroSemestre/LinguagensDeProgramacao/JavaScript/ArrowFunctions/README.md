@@ -24,23 +24,23 @@ const somar = (a, b) => {
 
 | Número | Tema | Origem |
 |---|---|---|
-| [01](Exercicio01.js) | Classificação de triângulos | Lista do professor |
-| [02](Exercicio02.js) | Formatação de dinheiro | Lista do professor |
-| [03](Exercicio03.js) | Juros simples e compostos | Lista do professor |
-| [04](Exercicio04.js) | Divisibilidade por 3 | Lista do professor |
-| [05](Exercicio05.js) | Menor e maior valor | Lista do professor |
-| [06](Exercicio06.js) | Soma de dois números | Complementar |
-| [07](Exercicio07.js) | Dobro de um número positivo | Complementar |
-| [08](Exercicio08.js) | Quadrado de um número | Complementar |
-| [09](Exercicio09.js) | Média de um vetor | Complementar |
-| [10](Exercicio10.js) | Números pares do vetor | Complementar |
+| [01](Exercicio01_ClassificarTriangulos/README.md) | Classificação de triângulos | Lista do professor |
+| [02](Exercicio02_FormatarDinheiro/README.md) | Formatação de dinheiro | Lista do professor |
+| [03](Exercicio03_JurosSimples&Compostos/README.md) | Juros simples e compostos | Lista do professor |
+| [04](Exercicio04_DivisibilidadePorTres/README.md) | Divisibilidade por 3 | Lista do professor |
+| [05](Exercicio05_Menor&MaiorValor/README.md) | Menor e maior valor | Lista do professor |
+| [06](Exercicio06_SomarNumeros/README.md) | Soma de dois números | Complementar |
+| [07](Exercicio07_DobroPositivo/README.md) | Dobro de um número positivo | Complementar |
+| [08](Exercicio08_Quadrado/README.md) | Quadrado de um número | Complementar |
+| [09](Exercicio09_MediaDoVetor/README.md) | Média de um vetor | Complementar |
+| [10](Exercicio10_NumerosPares/README.md) | Números pares do vetor | Complementar |
 
 ## Executar
 
 Abra esta pasta no VS Code e execute no terminal, com o Node.js instalado:
 
 ```bash
-node Exercicio01.js
+node "Exercicio01_ClassificarTriangulos/script.js"
 ```
 
 Cada arquivo tem o enunciado completo em comentário no início. Os programas são independentes e não exigem bibliotecas adicionais.

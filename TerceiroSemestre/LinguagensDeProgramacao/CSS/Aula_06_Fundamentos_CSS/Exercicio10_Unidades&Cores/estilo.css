@@ -1,0 +1,36 @@
+/* Estilos do exercício: Unidades e Cores */
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 24px;
+    color: #182333;
+    background: #fafafa;
+}
+input, button, textarea, select {
+    font: inherit;
+    padding: 6px;
+}
+button {
+    cursor: pointer;
+}
+label {
+    display: block;
+    margin-top: 12px;
+}
+textarea {
+    max-width: 100%;
+}
+.caixa {
+    width: 80%;
+    background: #dce8fa;
+    padding: 20px;
+}
+p {
+    font-size: 1.5rem;
+    color: rgb(20, 60, 100);
+}
+span {
+    font-size: 18px;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--
+Exercício 01 — Login Centralizado
+Origem: Lista do professor
+Com o auxílio do Flexbox, faça uma tela de login centralizada na página, conforme a imagem da lista.
+-->
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login Centralizado</title>
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+<form>
+<div class="avatar" aria-hidden="true">
+<div class="cabeca">
+</div>
+<div class="ombros">
+</div>
+</div>
+<label for="usuario">Usuário</label>
+<input id="usuario" placeholder="Digite seu usuário" autocomplete="username" required>
+<label for="senha">Senha</label>
+<input type="password" id="senha" placeholder="Digite sua senha" autocomplete="current-password" required>
+<div class="acoes">
+<button>Entrar</button>
+</div>
+<p id="mensagem" role="status">
+</p>
+</form>
+<script src="script.js">
+</script>
+</body>
+</html>

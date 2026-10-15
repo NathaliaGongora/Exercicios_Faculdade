@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--
+Exercício 01 — Barra Lateral e Conteudo
+Origem: Lista do professor
+Crie uma estrutura HTML básica com uma <div> para a barra lateral e outra <div> para o conteúdo principal.
+Estilize a barra lateral com as seguintes propriedades:
+Largura de 20% da largura total da página.
+Altura de 100% da altura da janela de visualização.
+Cor de fundo diferente da cor de fundo do conteúdo principal.
+Conteúdo de texto dentro da barra lateral, como links de navegação.
+Estilize o conteúdo principal com as seguintes propriedades:
+Largura de 80% da largura total da página.
+Altura de 100% da altura da janela de visualização.
+Cor de fundo diferente da cor de fundo da barra lateral.
+Alinhe o conteúdo no centro vertical e horizontalmente.
+Use a propriedade float para fazer com que a barra lateral flutue à esquerda e o conteúdo principal flutue à direita.
+Use a propriedade position para posicionar a barra lateral e o conteúdo principal de forma que eles ocupem toda a altura da janela de visualização, independentemente do tamanho do conteúdo.
+Teste o layout redimensionando a janela do navegador para verificar se ele é responsivo.
+-->
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Barra Lateral e Conteudo</title>
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+<div class="lateral">
+<nav>
+<a href="#inicio">Página inicial</a>
+<br>
+<a href="#sobre">Sobre</a>
+<br>
+<a href="#contato">Contato</a>
+</nav>
+</div>
+<div class="principal">
+<div class="centro">
+<h1 id="inicio">Seja bem-vindo ao nosso site</h1>
+<p id="sobre">Exemplo de layout com float e position.</p>
+<p id="contato">Contato acadêmico de demonstração.</p>
+</div>
+</div>
+</body>
+</html>
