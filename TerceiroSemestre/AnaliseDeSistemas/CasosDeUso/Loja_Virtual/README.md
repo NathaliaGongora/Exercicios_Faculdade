@@ -10,7 +10,7 @@ Identificar os atores, os objetivos de cada ator e os relacionamentos entre os c
 
 ## Diagrama de estudo
 
-Exemplo complementar organizado com apoio de IA para praticar a notação. Referência para praticar no Lucidchart.
+Exemplo de estudo para praticar a notação UML no Lucidchart.
 
 ![Casos de uso — Loja virtual](Diagrama.png)
 

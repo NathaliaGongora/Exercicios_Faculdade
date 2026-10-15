@@ -18,7 +18,7 @@ Na versão de estudo, a confirmação do banco retorna diretamente ao Sistema Lu
 
 ## Diagrama de estudo
 
-Projeto principal. A imagem abaixo é uma versão de estudo organizada com apoio de IA; não é um arquivo editável do Lucidchart.
+Modelo de estudo do projeto Lumio.
 
 ![Diagramas de sequência — Lumio](Diagrama.png)
 

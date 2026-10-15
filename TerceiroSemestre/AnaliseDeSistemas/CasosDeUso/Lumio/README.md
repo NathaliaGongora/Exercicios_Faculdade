@@ -10,7 +10,7 @@ Identificar os atores, os objetivos de cada ator e os relacionamentos entre os c
 
 ## Diagrama de estudo
 
-Projeto principal. A imagem abaixo é uma versão de estudo organizada com apoio de IA; não é um arquivo editável do Lucidchart.
+Modelo de estudo do projeto Lumio.
 
 ![Casos de uso — Lumio](Diagrama.png)
 

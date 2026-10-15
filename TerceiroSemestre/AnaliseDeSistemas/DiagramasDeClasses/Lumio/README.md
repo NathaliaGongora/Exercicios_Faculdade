@@ -10,7 +10,7 @@ Identificar as classes, os atributos, as operações e os relacionamentos, inclu
 
 ## Diagrama de estudo
 
-Projeto principal. A imagem abaixo é uma versão de estudo organizada com apoio de IA; não é um arquivo editável do Lucidchart.
+Modelo de estudo do projeto Lumio.
 
 ![Diagramas de classes — Lumio](Diagrama.png)
 

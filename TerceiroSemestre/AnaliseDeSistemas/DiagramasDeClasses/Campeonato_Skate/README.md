@@ -10,7 +10,7 @@ Identificar as classes, os atributos, as operações e os relacionamentos, inclu
 
 ## Diagrama de estudo
 
-Exemplo complementar organizado com apoio de IA para praticar a notação. Referência para praticar no Lucidchart.
+Exemplo de estudo para praticar a notação UML no Lucidchart.
 
 ![Diagramas de classes — Campeonato de skate](Diagrama.png)
 

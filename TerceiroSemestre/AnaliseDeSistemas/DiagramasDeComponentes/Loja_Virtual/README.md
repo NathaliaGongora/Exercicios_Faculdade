@@ -10,7 +10,7 @@ Identificar os componentes principais do sistema e as dependências entre eles.
 
 ## Diagrama de estudo
 
-Exemplo complementar organizado com apoio de IA para praticar a notação. Referência para praticar no Lucidchart.
+Exemplo de estudo para praticar a notação UML no Lucidchart.
 
 ![Diagramas de componentes — Loja virtual](Diagrama.png)
 

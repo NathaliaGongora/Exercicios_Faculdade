@@ -10,6 +10,7 @@ Material de estudo de UML e engenharia de requisitos. Os diagramas das aulas sã
 | [Classes](DiagramasDeClasses/README.md) | Classes, atributos, operações e relacionamentos |
 | [Componentes](DiagramasDeComponentes/README.md) | Partes do sistema e suas dependências |
 | [Sequência](DiagramasDeSequencia/README.md) | Ordem das mensagens em um cenário |
+| [Atividades](DiagramasDeAtividades/README.md) | Ações, decisões, repetições e paralelismo em processos |
 | [Engenharia de requisitos](EngenhariaDeRequisitos/README.md) | Necessidades, regras e especificação de funcionalidades |
 
 ## Organização
@@ -20,6 +21,6 @@ O **Lumio** é o projeto principal. Campeonato de skate, cadastro e autenticaç�
 
 ## Sobre as imagens
 
-Os originais enviados estão identificados nas respectivas pastas. As versões complementares organizadas com apoio de IA estão marcadas como imagens de estudo: não são arquivos editáveis do Lucidchart e servem como referências para praticar a modelagem. Novas exportações feitas nas aulas devem ser identificadas como originais e guardadas na pasta do problema correspondente.
+Cada pasta reúne a imagem do diagrama e a descrição do problema. Os originais das atividades e os modelos complementares de estudo estão identificados para acompanhar a evolução da modelagem. As imagens exportadas podem ser consultadas diretamente no GitHub.
 
 [Voltar para o terceiro semestre](../README.md)

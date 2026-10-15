@@ -10,7 +10,7 @@ Identificar os componentes principais do sistema e as dependências entre eles.
 
 ## Diagrama de estudo
 
-Projeto principal. A imagem abaixo é uma versão de estudo organizada com apoio de IA; não é um arquivo editável do Lucidchart.
+Modelo de estudo do projeto Lumio.
 
 ![Diagramas de componentes — Lumio](Diagrama.png)
 

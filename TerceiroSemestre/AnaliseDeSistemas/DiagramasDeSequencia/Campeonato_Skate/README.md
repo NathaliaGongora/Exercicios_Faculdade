@@ -10,7 +10,7 @@ Mostrar, em ordem, quem envia cada mensagem, quem recebe e como o sistema respon
 
 ## Diagrama de estudo
 
-Exemplo complementar organizado com apoio de IA para praticar a notação. Referência para praticar no Lucidchart.
+Exemplo de estudo para praticar a notação UML no Lucidchart.
 
 ![Diagramas de sequência — Campeonato de skate](Diagrama.png)
 
