@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!--
+Exercicio 10 - Seleção de arquivo e controles
+Origem: Complementar — arquivo, hidden e controles
+
+Crie um formulário de demonstração com campo de arquivo, campo oculto de identificação, lista
+de categorias, textarea e botões. O exemplo deve permitir escolher e limpar o arquivo sem
+enviar dados a um serviço.
+-->
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seleção de arquivo e controles</title>
+</head>
+<body>
+    <h1>Seleção de material de estudo</h1>
+    <p>Demonstração local de campos HTML. O botão abaixo não faz upload.</p>
+    <form>
+        <input type="hidden" name="origem" value="atividade-html">
+        <p><label for="arquivo">Arquivo:</label><input type="file" id="arquivo" accept=".pdf,.txt,.png,.jpg"></p>
+        <p><label for="categoria">Categoria:</label><select id="categoria" name="categoria"><option value="resumo">Resumo</option><option value="exercicio">Exercício</option></select></p>
+        <p><label for="descricao">Descrição:</label><br><textarea id="descricao" name="descricao" rows="4" cols="35"></textarea></p>
+        <input type="button" value="Botão de demonstração"><input type="reset" value="Limpar seleção">
+    </form>
+</body>
+</html>

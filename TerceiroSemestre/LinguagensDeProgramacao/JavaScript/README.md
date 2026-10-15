@@ -1,6 +1,6 @@
 # JavaScript
 
-Conteúdos organizados por tema. Cada tema tem seu README e uma pasta Exercicios com arquivos independentes. Os arquivos começam pelo enunciado em comentário.
+Conteúdos organizados por tema. Cada tema tem seu README e os exercícios diretamente na pasta do conteúdo. Os arquivos começam pelo enunciado em comentário.
 
 | Conteúdo | Exercícios |
 |---|---|
@@ -12,7 +12,7 @@ Conteúdos organizados por tema. Cada tema tem seu README e uma pasta Exercicios
 Com o Node.js instalado, abra a pasta do conteúdo no VS Code e execute no terminal:
 
 ```bash
-node Exercicios/Exercicio01.js
+node Exercicio01.js
 ```
 
 [Voltar à disciplina](../README.md)

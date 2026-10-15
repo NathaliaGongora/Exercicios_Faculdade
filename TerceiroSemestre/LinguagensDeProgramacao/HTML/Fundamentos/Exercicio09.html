@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!--
+Exercicio 09 - Formulário de cadastro
+Origem: Complementar — formulários
+
+Crie um formulário com nome, email, senha, seleção de curso, turno usando radio, aceite de
+termos usando checkbox, textarea para observações e botões de envio e limpeza. Associe os
+labels aos campos.
+-->
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de cadastro</title>
+</head>
+<body>
+    <h1>Cadastro de estudante</h1>
+    <p>Exemplo de formulário. Os dados não são armazenados.</p>
+    <form action="#" method="get">
+        <p><label for="nome">Nome:</label><input type="text" id="nome" name="nome" required></p>
+        <p><label for="email">Email:</label><input type="email" id="email" name="email" required></p>
+        <p><label for="senha">Senha de demonstração:</label><input type="password" id="senha" required></p>
+        <p><label for="curso">Curso:</label><select id="curso" name="curso"><option value="ads">Análise e Desenvolvimento de Sistemas</option><option value="engenharia">Engenharia de Computação</option></select></p>
+        <p>Turno: <input type="radio" id="manha" name="turno" value="manha" required><label for="manha">Manhã</label> <input type="radio" id="noite" name="turno" value="noite"><label for="noite">Noite</label></p>
+        <p><label for="observacoes">Observações:</label><br><textarea id="observacoes" name="observacoes" rows="4" cols="35"></textarea></p>
+        <p><input type="checkbox" id="termos" name="termos" value="aceito" required><label for="termos">Li os termos do exemplo</label></p>
+        <button type="submit">Enviar exemplo</button><button type="reset">Limpar</button>
+    </form>
+</body>
+</html>

@@ -8,4 +8,4 @@ Qual é a diferença entre Internet e Web?
 
 A Internet é a infraestrutura que conecta redes e dispositivos. A Web é um dos serviços que funciona sobre essa infraestrutura, com páginas e recursos acessados pelo navegador.
 
-[Voltar à aula](../README.md)
+[Voltar à aula](README.md)

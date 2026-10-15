@@ -24,23 +24,23 @@ const somar = (a, b) => {
 
 | Número | Tema | Origem |
 |---|---|---|
-| [01](Exercicios/Exercicio01.js) | Classificação de triângulos | Lista do professor |
-| [02](Exercicios/Exercicio02.js) | Formatação de dinheiro | Lista do professor |
-| [03](Exercicios/Exercicio03.js) | Juros simples e compostos | Lista do professor |
-| [04](Exercicios/Exercicio04.js) | Divisibilidade por 3 | Lista do professor |
-| [05](Exercicios/Exercicio05.js) | Menor e maior valor | Lista do professor |
-| [06](Exercicios/Exercicio06.js) | Soma de dois números | Complementar |
-| [07](Exercicios/Exercicio07.js) | Dobro de um número positivo | Complementar |
-| [08](Exercicios/Exercicio08.js) | Quadrado de um número | Complementar |
-| [09](Exercicios/Exercicio09.js) | Média de um vetor | Complementar |
-| [10](Exercicios/Exercicio10.js) | Números pares do vetor | Complementar |
+| [01](Exercicio01.js) | Classificação de triângulos | Lista do professor |
+| [02](Exercicio02.js) | Formatação de dinheiro | Lista do professor |
+| [03](Exercicio03.js) | Juros simples e compostos | Lista do professor |
+| [04](Exercicio04.js) | Divisibilidade por 3 | Lista do professor |
+| [05](Exercicio05.js) | Menor e maior valor | Lista do professor |
+| [06](Exercicio06.js) | Soma de dois números | Complementar |
+| [07](Exercicio07.js) | Dobro de um número positivo | Complementar |
+| [08](Exercicio08.js) | Quadrado de um número | Complementar |
+| [09](Exercicio09.js) | Média de um vetor | Complementar |
+| [10](Exercicio10.js) | Números pares do vetor | Complementar |
 
 ## Executar
 
 Abra esta pasta no VS Code e execute no terminal, com o Node.js instalado:
 
 ```bash
-node Exercicios/Exercicio01.js
+node Exercicio01.js
 ```
 
 Cada arquivo tem o enunciado completo em comentário no início. Os programas são independentes e não exigem bibliotecas adicionais.
@@ -52,4 +52,4 @@ Cada arquivo tem o enunciado completo em comentário no início. Os programas s�
 - No exercício 3, as duas funções retornam o **montante**, não apenas os juros. A taxa é decimal e deve corresponder à unidade do tempo: taxa mensal com tempo em meses, por exemplo.
 - Os exercícios de divisibilidade e menor/maior recebem números inteiros, conforme a lista. O exercício 5 informa “Vetor vazio” quando não há valores para comparar.
 
-[Índice dos exercícios](Exercicios/README.md) · [Voltar a JavaScript](../README.md)
+[Voltar a JavaScript](../README.md)

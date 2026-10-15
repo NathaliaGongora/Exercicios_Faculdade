@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!--
+Exercicio 06 - Tabela de veículos
+Origem: Slide 18 — tabelas
+
+Reproduza a tabela do slide 18 usando Marca, Modelo e Ano, com Toyota ocupando duas linhas,
+Honda três linhas e o rodapé Última atualização: 27/02/2013 ocupando as três colunas.
+-->
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de veículos</title>
+    <style>
+        table { border-collapse: collapse; }
+        th, td { border: 1px solid #333; padding: 8px; }
+    </style>
+</head>
+<body>
+    <h1>Tabela de veículos</h1>
+    <table>
+        <thead><tr><th scope="col">Marca</th><th scope="col">Modelo</th><th scope="col">Ano</th></tr></thead>
+        <tbody>
+            <tr><td rowspan="2">Toyota</td><td>Corolla</td><td>2010</td></tr>
+            <tr><td>Camry</td><td>2011</td></tr>
+            <tr><td rowspan="3">Honda</td><td>Civic</td><td>2004</td></tr>
+            <tr><td>Fit</td><td>2012</td></tr>
+            <tr><td>City</td><td>2011</td></tr>
+            <tr><td>Mitsubishi</td><td>Lancer</td><td>2012</td></tr>
+        </tbody>
+        <tfoot><tr><td colspan="3">Última atualização: 27/02/2013</td></tr></tfoot>
+    </table>
+</body>
+</html>

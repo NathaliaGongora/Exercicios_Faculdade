@@ -1,7 +1,11 @@
 # HTML
 
-Estrutura e significado do conteúdo das páginas.
+Linguagem de marcação usada para estruturar e dar significado ao conteúdo das páginas.
 
-Os conteúdos e exercícios serão adicionados conforme os materiais das aulas.
+| Conteúdo | Atividades |
+|---|---|
+| [Fundamentos](Fundamentos/README.md) | Dez atividades de estrutura, texto, links, âncoras, imagens, tabelas, listas e formulários |
+
+Os arquivos HTML ficam diretamente na pasta do conteúdo. Cada arquivo começa com o enunciado em comentário.
 
 [Voltar à disciplina](../README.md)
