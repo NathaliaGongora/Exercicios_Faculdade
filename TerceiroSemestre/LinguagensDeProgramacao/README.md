@@ -1,14 +1,22 @@
 # Linguagens de Programação — 3º semestre
 
-Estudos de desenvolvimento web com HTML, CSS e JavaScript, conforme os materiais das aulas do professor Edson Martin Feitosa.
+Material de desenvolvimento web organizado por linguagem, conteúdo e exercícios.
 
-## Aulas
+## Áreas
 
-| Aula | Conteúdo | Exercícios |
-|---|---|---|
-| [01 — Visão geral da Web](Aula01_VisaoGeralDaWeb/README.md) | Cliente/servidor, HTTP e web services | 10 questões complementares respondidas |
-| [02 — JavaScript](Aula02_JavaScript/README.md) | Variáveis, operações, strings, condições, laços e funções | 10 programas da Lista 01 |
+| Área | Conteúdo disponível |
+|---|---|
+| [Fundamentos da Web](FundamentosDaWeb/README.md) | Visão geral, cliente/servidor, HTTP e web services |
+| [HTML](HTML/README.md) | Área reservada para as aulas de estrutura das páginas |
+| [CSS](CSS/README.md) | Área reservada para as aulas de estilos |
+| [JavaScript](JavaScript/README.md) | Fundamentos e arrow functions |
 
-Cada aula tem seu próprio README e dez arquivos numerados. Os exercícios da Lista 01 ficam associados à aula de JavaScript, sem duplicar a lista como outra aula.
+## Organização
+
+Dentro de cada linguagem, escolha o conteúdo da aula. O README apresenta o assunto e os critérios da lista. A pasta **Exercicios** contém as resoluções numeradas com o enunciado no início de cada arquivo.
+
+Exemplo de caminho: **JavaScript → ArrowFunctions → Exercicios → Exercicio01.js**.
+
+A visão geral da Web fica separada por reunir conceitos comuns às linguagens. Cada conteúdo tem dez exercícios; quando uma lista tem menos itens, os complementares ficam identificados.
 
 [Voltar ao terceiro semestre](../README.md)
