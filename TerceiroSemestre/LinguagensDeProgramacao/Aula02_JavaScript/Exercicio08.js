@@ -1,3 +1,10 @@
+/*
+ * Exercicio 08 - Lista 01 de JavaScript
+ *
+ * Escreva uma função que recebe uma string como argumento e retorna o número de vogais
+ * presentes nessa string. Considere apenas vogais minúsculas (a, e, i, o, u).
+ */
+
 function contarVogais(texto) {
     let quantidade = 0
 

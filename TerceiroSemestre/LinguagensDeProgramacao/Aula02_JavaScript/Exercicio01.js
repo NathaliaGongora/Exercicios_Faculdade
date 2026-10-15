@@ -1,3 +1,10 @@
+/*
+ * Exercicio 01 - Lista 01 de JavaScript
+ *
+ * Escreva um programa que declare duas variáveis numéricas e realize as quatro
+ * operações matemáticas básicas (+, -, *, /). Imprima os resultados no console.
+ */
+
 const numero1 = 10
 const numero2 = 2
 
