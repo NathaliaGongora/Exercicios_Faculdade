@@ -1,4 +1,4 @@
-# HTML — Fundamentos
+# Aula 03 — Introdução ao HTML
 
 Referências: “3- 01 HTML (1).pptx” e “3- Web03 HTML Exercicios (1).docx”.
 

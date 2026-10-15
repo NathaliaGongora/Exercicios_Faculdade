@@ -1,4 +1,4 @@
-# HTML5
+# Aula 04 — HTML5
 
 Referência: slides “4- 01 HTML 5.pptx”. Dez atividades complementares de prática dos recursos apresentados na aula.
 
@@ -17,7 +17,7 @@ Referência: slides “4- 01 HTML 5.pptx”. Dez atividades complementares de pr
 
 ## Como executar
 
-Abra o HTML no navegador. Os scripts são simples arquivos locais e não exigem bibliotecas. Mantenha estilo.css, os scripts e a pasta Recursos ao lado das páginas.
+No GitHub, os links para arquivos HTML exibem o código-fonte. Para executar, baixe ou clone o repositório e abra o HTML no navegador. Os scripts são simples arquivos locais e não exigem bibliotecas. Mantenha estilo.css, os scripts e a pasta Recursos ao lado das páginas.
 
 ## Observações
 
