@@ -1,4 +1,4 @@
-# Aula 03 — Introdução ao HTML
+# Introdução ao HTML
 
 Dez atividades organizadas por assunto. Cada pasta reúne o enunciado, a página
 inicial `index.html` e os arquivos necessários à atividade.

@@ -1,4 +1,4 @@
-# Aula 06 Layout CSS
+# Layout CSS
 
 Referências da aula: 6 - 2 CSS Fundamentos.pptx; 6 - CSS Layout Exercicios.docx.
 

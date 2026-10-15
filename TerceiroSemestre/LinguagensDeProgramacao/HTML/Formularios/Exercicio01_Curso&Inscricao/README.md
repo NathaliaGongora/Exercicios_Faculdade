@@ -39,4 +39,4 @@ selecionados e não entram no envio quando nenhuma opção está marcada.
 | [inscricao.html](inscricao.html) | Formulário de inscrição |
 | [inscricao.js](inscricao.js) | Preenchimento do curso e envio à API |
 
-[Voltar à aula 05](../README.md)
+[Voltar ao conteúdo](../README.md)

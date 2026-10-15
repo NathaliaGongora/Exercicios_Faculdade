@@ -1,4 +1,4 @@
-# Aula 01 — Visão geral da Web
+# Visão geral da Web
 
 Professor: Edson Martin Feitosa. Material de referência: slides “1- 01 Visão Geral da Web.pptx”.
 

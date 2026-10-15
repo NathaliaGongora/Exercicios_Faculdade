@@ -1,4 +1,4 @@
-# Aula 06 Fundamentos CSS
+# Fundamentos de CSS
 
 Referências da aula: 6 - 2 CSS Fundamentos.pptx; 6 - CSS Fundamentos Exercicios-1 (1).docx.
 

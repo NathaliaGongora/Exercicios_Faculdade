@@ -1,4 +1,4 @@
-# Aula 02 — JavaScript
+# Fundamentos de JavaScript
 
 Professor: Edson Martin Feitosa. Referências: slides “1- 02 JavaScript (1).pptx” e “1- 03 JavaScript Exercicios.docx”, Lista 01.
 

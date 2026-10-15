@@ -1,17 +1,17 @@
 # HTML — atividades das aulas
 
 Estudos de HTML da disciplina Linguagens de Programação, no terceiro semestre.
-As pastas seguem a numeração dos materiais da disciplina. Cada aula tem dez pastas de atividades. Cada atividade reúne seu README,
+As pastas são organizadas pelo conteúdo principal de cada aula. Cada conteúdo tem dez pastas de atividades. Cada atividade reúne seu README,
 a página inicial `index.html` e seus arquivos de apoio.
 
 ## Navegação
 
-| Aula | Conteúdo | Atividades |
+| Tema | Conteúdo | Atividades |
 |---|---|---|
-| [03 — Introdução ao HTML](Aula_03_Introducao_HTML/README.md) | Textos, links, imagens, tabelas e listas | 2 da lista, 4 dos slides e 4 complementares |
-| [04 — HTML5](Aula_04_HTML5/README.md) | Semântica, campos, validação e recursos de mídia | 10 práticas complementares aos slides |
-| [05 — Formulários](Aula_05_Formularios/README.md) | Controles de formulário e inscrição em cursos | 1 da lista e 9 complementares |
-| [06 — Containers](Aula_06_Containers/README.md) | Agrupamento com div, span e elementos semânticos | 10 práticas complementares aos slides |
+| [Introdução ao HTML](Introducao_HTML/README.md) | Textos, links, imagens, tabelas e listas | 2 da lista, 4 dos slides e 4 complementares |
+| [HTML5](HTML5/README.md) | Semântica, campos, validação e recursos de mídia | 10 práticas complementares aos slides |
+| [Formulários](Formularios/README.md) | Controles de formulário e inscrição em cursos | 1 da lista e 9 complementares |
+| [Containers](Containers/README.md) | Agrupamento com div, span e elementos semânticos | 10 práticas complementares aos slides |
 
 ## Como consultar
 
@@ -23,15 +23,15 @@ Os links do GitHub mostram o código-fonte. Para visualizar as páginas funciona
 baixe ou clone o repositório e abra os arquivos HTML no navegador, mantendo os
 arquivos de apoio nos mesmos locais.
 
-A atividade [Cursos e inscrição](Aula_05_Formularios/Exercicio01_Curso&Inscricao/README.md)
+A atividade [Cursos e inscrição](Formularios/Exercicio01_Curso&Inscricao/README.md)
 reúne suas duas páginas e o JavaScript em uma pasta própria. Seu README explica
 o fluxo e a configuração da API.
 
-Cada aula reúne dez atividades. As práticas complementares estão identificadas
+Cada conteúdo reúne dez atividades. As práticas complementares estão identificadas
 separadamente das propostas do professor.
 
 [Voltar à disciplina](../README.md)
 
 ## Padrão de nomes
 
-Aulas usam palavras separadas por underline. As atividades seguem `Exercicio01_NomeDoTema`, sem espaços ou acentos. A atividade de inscrição usa `Exercicio01_Curso&Inscricao`. A página inicial de cada atividade se chama `index.html`; arquivos de apoio usam nomes em minúsculas.
+Pastas de conteúdo usam nomes descritivos, com palavras separadas por underline quando necessário. As atividades seguem `Exercicio01_NomeDoTema`, sem espaços ou acentos. A atividade de inscrição usa `Exercicio01_Curso&Inscricao`. A página inicial de cada atividade se chama `index.html`; arquivos de apoio usam nomes em minúsculas.

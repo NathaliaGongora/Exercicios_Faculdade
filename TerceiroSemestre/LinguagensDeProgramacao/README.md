@@ -5,7 +5,7 @@ Material de desenvolvimento web organizado por linguagem e conteúdo. Cada área
 | Área | Conteúdo disponível |
 |---|---|
 | [Fundamentos da Web](FundamentosDaWeb/README.md) | Visão geral, cliente/servidor, HTTP e web services |
-| [HTML](HTML/README.md) | Aulas 03 a 06: introdução, HTML5, formulários e containers |
+| [HTML](HTML/README.md) | Introdução ao HTML, HTML5, formulários e containers |
 | [CSS](CSS/README.md) | Fundamentos de CSS, layout e Flexbox |
 | [JavaScript](JavaScript/README.md) | Fundamentos, arrow functions e manipulação do DOM |
 

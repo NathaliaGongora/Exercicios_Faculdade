@@ -1,4 +1,4 @@
-# Aula 07 Flexbox
+# Flexbox
 
 Referências da aula: 7 - Flexbox-1.pptx; 7 - Flexbox Exercícios.docx.
 

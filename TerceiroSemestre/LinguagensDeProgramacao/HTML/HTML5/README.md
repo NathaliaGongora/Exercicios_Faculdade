@@ -1,4 +1,4 @@
-# Aula 04 — HTML5
+# HTML5
 
 Dez atividades organizadas por assunto. Cada pasta reúne o enunciado, a página
 inicial `index.html` e os arquivos necessários à atividade.
