@@ -1,0 +1,12 @@
+body { font-family: Arial, sans-serif; margin: 24px; line-height: 1.5; max-width: 1000px; }
+label { display: block; margin-top: 12px; }
+input, select, textarea, button { font: inherit; max-width: 100%; }
+input:not([type="checkbox"]):not([type="radio"]):not([type="range"]):not([type="color"]):not([type="hidden"]), select, textarea { box-sizing: border-box; width: 100%; padding: 6px; }
+fieldset { margin: 20px 0; padding: 16px; }
+button { margin: 12px 6px 0 0; padding: 6px 12px; }
+table { border-collapse: collapse; width: 100%; }
+th, td { border: 1px solid #777; padding: 8px; text-align: left; }
+.opcao { display: inline; margin-right: 12px; }
+.status { min-height: 1.5em; font-weight: bold; }
+.caixa { min-height: 100px; border: 1px solid #777; margin: 16px 0; padding: 12px; }
+#cartao { border: 1px solid #333; padding: 8px; max-width: 220px; cursor: grab; }
