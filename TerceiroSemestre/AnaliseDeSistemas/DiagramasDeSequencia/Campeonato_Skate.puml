@@ -1,0 +1,34 @@
+@startuml
+hide footbox
+skinparam shadowing false
+skinparam sequenceMessageAlign center
+autonumber
+title Campeonato de skate — Enviar vídeo
+actor "Skatista" as U
+boundary "Portal do campeonato" as W
+control "Sistema do campeonato" as S
+participant "Serviço de vídeos" as V
+database "Banco de Dados" as BD
+U -> W : Selecionar campeonato e vídeo
+W -> S : Solicitar envio
+S -> BD : Consultar inscrição e prazo
+BD --> S : Retornar situação da inscrição
+alt inscrição ativa e prazo aberto
+S -> V : Validar formato e duração
+V --> S : Retornar validação
+alt vídeo válido
+S -> V : Armazenar vídeo
+V --> S : Retornar identificador do vídeo
+S -> BD : Vincular vídeo à inscrição
+BD --> S : Confirmar vínculo
+S --> W : Confirmar envio
+W --> U : Exibir confirmação
+else vídeo inválido
+S --> W : Informar motivo da rejeição
+W --> U : Solicitar novo vídeo
+end
+else inscrição ou prazo inválido
+S --> W : Recusar envio e informar motivo
+W --> U : Exibir impedimento
+end
+@enduml

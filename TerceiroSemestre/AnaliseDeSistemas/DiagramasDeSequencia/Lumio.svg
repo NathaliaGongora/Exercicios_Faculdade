@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1420" height="2590" viewBox="0 0 1420 2590" role="img" aria-label="Lumio — Enviar e analisar conta de energia">
+<title>Lumio — Enviar e analisar conta de energia</title>
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 Z" fill="#26354a"/></marker></defs>
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:Arial,sans-serif;fill:#17263c;font-size:16px}.life{stroke:#8191a5;stroke-dasharray:7 6}.msg{fill:none;stroke:#26354a;stroke-width:1.6;marker-end:url(#arrow)}.ret{stroke-dasharray:7 5}.frame{fill:none;stroke:#7287a0;stroke-width:1.4}</style>
+<text x="30" y="35" style="font-size:24px;font-weight:bold">Lumio — Enviar e analisar conta de energia</text>
+<text x="30" y="62">Tempo de cima para baixo • tracejado = retorno • retângulo estreito = execução local</text>
+<rect x="20" y="85" width="220" height="58" rx="6" fill="#edf3fa" stroke="#355574"/>
+<text x="130" y="108" text-anchor="middle" style="font-size:12px">actor</text><text x="130" y="132" text-anchor="middle">Usuário</text>
+<line class="life" x1="130" y1="143" x2="130" y2="2525"/>
+<rect x="310" y="85" width="220" height="58" rx="6" fill="#edf3fa" stroke="#355574"/>
+<text x="420" y="108" text-anchor="middle" style="font-size:12px">boundary</text><text x="420" y="132" text-anchor="middle">Interface Web</text>
+<line class="life" x1="420" y1="143" x2="420" y2="2525"/>
+<rect x="600" y="85" width="220" height="58" rx="6" fill="#edf3fa" stroke="#355574"/>
+<text x="710" y="108" text-anchor="middle" style="font-size:12px">control</text><text x="710" y="132" text-anchor="middle">Sistema Lumio</text>
+<line class="life" x1="710" y1="143" x2="710" y2="2525"/>
+<rect x="890" y="85" width="220" height="58" rx="6" fill="#edf3fa" stroke="#355574"/>
+<text x="1000" y="108" text-anchor="middle" style="font-size:12px">control</text><text x="1000" y="132" text-anchor="middle">Serviço de IA / OCR</text>
+<line class="life" x1="1000" y1="143" x2="1000" y2="2525"/>
+<rect x="1180" y="85" width="220" height="58" rx="6" fill="#edf3fa" stroke="#355574"/>
+<text x="1290" y="108" text-anchor="middle" style="font-size:12px">database</text><text x="1290" y="132" text-anchor="middle">Banco de Dados</text>
+<line class="life" x1="1290" y1="143" x2="1290" y2="2525"/>
+<rect class="frame" x="25" y="410" width="1370" height="2055"/>
+<rect x="25" y="410" width="1370" height="34" fill="#edf3fa"/><text x="37" y="434">alt [arquivo válido]</text>
+<line x1="25" y1="2170" x2="1395" y2="2170" stroke="#7287a0" stroke-dasharray="6 4"/><rect x="26" y="2171" width="1368" height="34" fill="#f5f7fa"/><text x="37" y="2194">else [arquivo inválido]</text>
+<rect class="frame" x="38" y="810" width="1344" height="215"/>
+<rect x="38" y="810" width="1344" height="34" fill="#edf3fa"/><text x="50" y="834">opt [usuário identifica divergências]</text>
+<rect class="frame" x="38" y="1290" width="1344" height="855"/>
+<rect x="38" y="1290" width="1344" height="34" fill="#edf3fa"/><text x="50" y="1314">alt [dados consistentes]</text>
+<line x1="38" y1="1850" x2="1382" y2="1850" stroke="#7287a0" stroke-dasharray="6 4"/><rect x="39" y="1851" width="1342" height="34" fill="#f5f7fa"/><text x="50" y="1874">else [dados inconsistentes]</text>
+<line class="msg" x1="130" y1="228" x2="420" y2="228"/>
+<text x="275.0" y="216" text-anchor="middle">1. Selecionar conta em PDF</text>
+<line class="msg" x1="420" y1="308" x2="710" y2="308"/>
+<text x="565.0" y="296" text-anchor="middle">2. Enviar arquivo PDF</text>
+<rect x="705" y="350" width="10" height="56" fill="#e1ebf5" stroke="#355574"/>
+<path class="msg" d="M715,370 h48 v25 h-48"/>
+<text x="780" y="370" text-anchor="start">3. Validar formato e tamanho</text>
+<line class="msg" x1="710" y1="548" x2="1000" y2="548"/>
+<text x="855.0" y="536" text-anchor="middle">4. Solicitar extração dos dados</text>
+<line class="msg ret" x1="1000" y1="628" x2="710" y2="628"/>
+<text x="855.0" y="597" text-anchor="middle">5. Retornar dados estruturados em</text>
+<text x="855.0" y="616" text-anchor="middle">JSON</text>
+<line class="msg ret" x1="710" y1="708" x2="420" y2="708"/>
+<text x="565.0" y="677" text-anchor="middle">6. Disponibilizar dados para</text>
+<text x="565.0" y="696" text-anchor="middle">revisão</text>
+<line class="msg ret" x1="420" y1="788" x2="130" y2="788"/>
+<text x="275.0" y="776" text-anchor="middle">7. Apresentar dados extraídos</text>
+<line class="msg" x1="130" y1="948" x2="420" y2="948"/>
+<text x="275.0" y="936" text-anchor="middle">8. Corrigir dados extraídos</text>
+<line class="msg" x1="130" y1="1108" x2="420" y2="1108"/>
+<text x="275.0" y="1096" text-anchor="middle">9. Confirmar dados da conta</text>
+<line class="msg" x1="420" y1="1188" x2="710" y2="1188"/>
+<text x="565.0" y="1176" text-anchor="middle">10. Enviar dados confirmados</text>
+<rect x="705" y="1230" width="10" height="56" fill="#e1ebf5" stroke="#355574"/>
+<path class="msg" d="M715,1250 h48 v25 h-48"/>
+<text x="780" y="1250" text-anchor="start">11. Validar dados confirmados</text>
+<line class="msg" x1="710" y1="1428" x2="1290" y2="1428"/>
+<text x="1000.0" y="1416" text-anchor="middle">12. Salvar conta e consumo do usuário</text>
+<line class="msg ret" x1="1290" y1="1508" x2="710" y2="1508"/>
+<text x="1000.0" y="1496" text-anchor="middle">13. Confirmar registro</text>
+<line class="msg" x1="710" y1="1588" x2="1000" y2="1588"/>
+<text x="855.0" y="1557" text-anchor="middle">14. Solicitar análise dos dados</text>
+<text x="855.0" y="1576" text-anchor="middle">confirmados</text>
+<line class="msg ret" x1="1000" y1="1668" x2="710" y2="1668"/>
+<text x="855.0" y="1656" text-anchor="middle">15. Retornar análise e indicadores</text>
+<line class="msg ret" x1="710" y1="1748" x2="420" y2="1748"/>
+<text x="565.0" y="1736" text-anchor="middle">16. Disponibilizar resultado</text>
+<line class="msg ret" x1="420" y1="1828" x2="130" y2="1828"/>
+<text x="275.0" y="1816" text-anchor="middle">17. Exibir análise e indicadores</text>
+<line class="msg ret" x1="710" y1="1988" x2="420" y2="1988"/>
+<text x="565.0" y="1976" text-anchor="middle">18. Informar campos inválidos</text>
+<line class="msg ret" x1="420" y1="2068" x2="130" y2="2068"/>
+<text x="275.0" y="2037" text-anchor="middle">19. Solicitar correção antes de</text>
+<text x="275.0" y="2056" text-anchor="middle">salvar</text>
+<line class="msg ret" x1="710" y1="2308" x2="420" y2="2308"/>
+<text x="565.0" y="2277" text-anchor="middle">20. Informar erro de formato ou</text>
+<text x="565.0" y="2296" text-anchor="middle">tamanho</text>
+<line class="msg ret" x1="420" y1="2388" x2="130" y2="2388"/>
+<text x="275.0" y="2376" text-anchor="middle">21. Solicitar outro arquivo</text>
+</svg>

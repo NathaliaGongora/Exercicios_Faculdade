@@ -10,3 +10,4 @@ Aprendizados e atividades de modelagem de sistemas com UML.
 | [DiagramasDeClasses](DiagramasDeClasses/README.md) | Classes, atributos, métodos, visibilidade e relacionamentos UML |
 | [DiagramasDeComponentes](DiagramasDeComponentes/README.md) | Componentes, interfaces, dependências e cinco modelos UML |
 | [EngenhariaDeRequisitos](EngenhariaDeRequisitos/README.md) | Tipos, elicitação, especificação, validação e gerenciamento de requisitos |
+| [DiagramasDeSequencia](DiagramasDeSequencia/README.md) | Mensagens, linhas de vida, fragmentos de interação e cinco cenários UML |
