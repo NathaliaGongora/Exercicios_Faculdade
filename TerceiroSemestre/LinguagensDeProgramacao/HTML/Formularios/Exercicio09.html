@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!--
+Exercicio 09 - Validação nativa
+Origem: Complementar dos slides de formulários
+
+Crie um formulário com required, email, minlength, maxlength e pattern para um CEP de oito
+dígitos, com ou sem hífen.
+-->
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validação nativa</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="demonstracao.js" defer></script>
+</head>
+<body>
+    <h1>Validação nativa</h1>
+<p>Prática local: os dados não são transmitidos nem armazenados.</p>
+<form action="#" method="post" data-demonstracao data-status="resultado" >
+<label for="nome">Nome *</label>
+<input type="text" id="nome" name="nome" required minlength="3" maxlength="60">
+<label for="email">Email *</label>
+<input type="email" id="email" name="email" required >
+<label for="cep">CEP *</label>
+<input type="text" id="cep" name="cep" required pattern="[0-9]{5}-?[0-9]{3}" title="Use oito dígitos, com ou sem hífen">
+<button type="submit">Validar</button>
+</form>
+<p id="resultado" class="status" role="status" aria-live="polite"></p>
+    <p><a href="README.md">Descrição do conteúdo</a></p>
+</body>
+</html>

@@ -5,7 +5,7 @@ Material de desenvolvimento web organizado por linguagem e conteúdo. Os exercí
 | Área | Conteúdo disponível |
 |---|---|
 | [Fundamentos da Web](FundamentosDaWeb/README.md) | Visão geral, cliente/servidor, HTTP e web services |
-| [HTML](HTML/README.md) | Estrutura, texto, links, âncoras, imagens, tabelas, listas e formulários |
+| [HTML](HTML/README.md) | Fundamentos, HTML5 e formulários com inscrição em cursos |
 | [CSS](CSS/README.md) | Área reservada para as aulas de estilos |
 | [JavaScript](JavaScript/README.md) | Fundamentos e arrow functions |
 

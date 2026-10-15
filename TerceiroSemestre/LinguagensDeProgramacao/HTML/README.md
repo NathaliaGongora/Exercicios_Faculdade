@@ -1,11 +1,13 @@
 # HTML
 
-Linguagem de marcação usada para estruturar e dar significado ao conteúdo das páginas.
+Conteúdos de marcação e estrutura das páginas. Cada assunto reúne seu README, dez atividades e os arquivos de apoio necessários, diretamente na pasta do conteúdo.
 
 | Conteúdo | Atividades |
 |---|---|
-| [Fundamentos](Fundamentos/README.md) | Dez atividades de estrutura, texto, links, âncoras, imagens, tabelas, listas e formulários |
+| [Fundamentos](Fundamentos/README.md) | Texto, links, âncoras, imagens, tabelas, listas e introdução a formulários |
+| [HTML5](HTML5/README.md) | Semântica, campos e validação, detalhes, edição, mídia e arrastar/soltar |
+| [Formulários](Formularios/README.md) | Cursos e inscrição com API e nove atividades complementares |
 
-Os arquivos HTML ficam diretamente na pasta do conteúdo. Cada arquivo começa com o enunciado em comentário.
+Os enunciados ficam no início de cada arquivo HTML.
 
 [Voltar à disciplina](../README.md)

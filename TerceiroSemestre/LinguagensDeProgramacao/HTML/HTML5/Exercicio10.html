@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<!--
+Exercicio 10 - Arrastar e soltar
+Origem: Prática complementar dos slides HTML5
+
+Use draggable e os eventos dragstart, dragover e drop para mover um cartão entre duas caixas.
+Ofereça botões que realizem a mesma ação pelo teclado.
+-->
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrastar e soltar</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="arrastar.js" defer></script>
+</head>
+<body>
+    <h1>Arrastar e soltar</h1>
+<p>Arraste o cartão ou use os botões abaixo.</p><section id="caixa1" class="caixa"><h2>Caixa 1</h2><p id="cartao" draggable="true">Cartão de estudo</p></section><section id="caixa2" class="caixa"><h2>Caixa 2</h2></section><button type="button" id="mover1">Mover para caixa 1</button><button type="button" id="mover2">Mover para caixa 2</button><p id="movimento" role="status" aria-live="polite"></p>
+    <p><a href="README.md">Descrição do conteúdo</a></p>
+</body>
+</html>

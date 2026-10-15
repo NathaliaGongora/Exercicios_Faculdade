@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!--
+Exercicio 03 - Pesquisa por GET
+Origem: Complementar dos slides de formulários
+
+Crie um formulário de pesquisa por GET com campo search e um select de categoria. Intercepte o
+envio apenas para demonstrar a validação.
+-->
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisa por GET</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="demonstracao.js" defer></script>
+</head>
+<body>
+    <h1>Pesquisa por GET</h1>
+<p>Prática local: os dados não são transmitidos nem armazenados.</p>
+<form action="#" method="get" data-demonstracao data-status="resultado" >
+<label for="pesquisa">Termo de pesquisa *</label>
+<input type="search" id="pesquisa" name="pesquisa" required >
+<label for="categoria">Categoria</label>
+<select id="categoria" name="categoria" ><option value="">Selecione</option><option value="todos">Todos</option><option value="cursos">Cursos</option></select>
+<button type="submit">Pesquisar</button>
+</form>
+<p id="resultado" class="status" role="status" aria-live="polite"></p>
+    <p><a href="README.md">Descrição do conteúdo</a></p>
+</body>
+</html>

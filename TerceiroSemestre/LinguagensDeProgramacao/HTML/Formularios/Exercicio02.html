@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!--
+Exercicio 02 - Formulário de contato
+Origem: Complementar dos slides de formulários
+
+Crie nome, email e mensagem com label, id, name e envio por POST em um formulário de
+demonstração.
+-->
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de contato</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="demonstracao.js" defer></script>
+</head>
+<body>
+    <h1>Formulário de contato</h1>
+<p>Prática local: os dados não são transmitidos nem armazenados.</p>
+<form action="#" method="post" data-demonstracao data-status="resultado" >
+<label for="nome">Nome *</label>
+<input type="text" id="nome" name="nome" required >
+<label for="email">Email *</label>
+<input type="email" id="email" name="email" required >
+<label for="mensagem">Mensagem</label><textarea id="mensagem" name="mensagem" rows="4"></textarea>
+<button type="submit">Conferir envio</button>
+</form>
+<p id="resultado" class="status" role="status" aria-live="polite"></p>
+    <p><a href="README.md">Descrição do conteúdo</a></p>
+</body>
+</html>

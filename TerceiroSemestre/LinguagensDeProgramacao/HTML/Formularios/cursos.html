@@ -1,0 +1,74 @@
+<!--
+Exercício 01 — Cursos e Inscrição (lista da aula).
+Criar um catálogo com nome, descrição, turno, horário, professores e valor.
+Cada link de inscrição deve transmitir o código do curso pela URL.
+No formulário, cadastrar aluno (nome, endereço, bairro, cidade, número, CEP,
+complemento, estado, telefone, celular, e-mail e cor), pai e mãe (nome,
+nascimento, naturalidade, instrução, profissão, celular, e-mail, CPF e
+responsabilidade financeira), e curso (nome, ingresso, valor e parcelas).
+Exigir nome, celular, e-mail e cor do aluno; nome, celular, e-mail e CPF de
+cada responsável; nome, ingresso, valor e parcelas do curso.
+Salvar a inscrição no MockAPI somente com os campos obrigatórios preenchidos.
+-->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursos disponíveis</title>
+</head>
+<body>
+
+    <h1>Cursos infantis</h1>
+    <p>Conheça nossos cursos e faça sua inscrição.</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Nome do curso</th>
+                <th>Descrição</th>
+                <th>Turno e horário</th>
+                <th>Professores</th>
+                <th>Valor</th>
+                <th>Inscrição</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Desenho e pintura</td>
+                <td>Atividades de desenho, pintura e criatividade.</td>
+                <td>Manhã — das 9h às 10h</td>
+                <td>Ana Silva</td>
+                <td>R$ 150,00</td>
+                <td>
+                    <a href="inscricao.html?codigo=1">Inscrever-se</a>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Música</td>
+                <td>Introdução aos instrumentos musicais e ao ritmo.</td>
+                <td>Tarde — das 14h às 15h</td>
+                <td>Pedro Souza</td>
+                <td>R$ 180,00</td>
+                <td>
+                    <a href="inscricao.html?codigo=2">Inscrever-se</a>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Teatro</td>
+                <td>Atividades de expressão corporal e interpretação.</td>
+                <td>Tarde — das 15h às 16h</td>
+                <td>Mariana Oliveira</td>
+                <td>R$ 200,00</td>
+                <td>
+                    <a href="inscricao.html?codigo=3">Inscrever-se</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>

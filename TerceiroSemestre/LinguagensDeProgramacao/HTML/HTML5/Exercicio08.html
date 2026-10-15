@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<!--
+Exercicio 08 - Texto editável
+Origem: Prática complementar dos slides HTML5
+
+Crie um bloco editável com contenteditable e spellcheck e outro com a correção ortográfica
+desativada. Explique que as mudanças não são persistidas.
+-->
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Texto editável</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <h1>Texto editável</h1>
+<p>Os textos podem ser editados. Recarregar a página restaura o conteúdo original.</p><h2 id="titulo-texto">Anotações</h2><div contenteditable="true" spellcheck="true" role="textbox" aria-labelledby="titulo-texto" aria-multiline="true" tabindex="0">Edite suas anotações aqui.</div><h2 id="titulo-codigo">Trecho de código</h2><pre contenteditable="true" spellcheck="false" role="textbox" aria-labelledby="titulo-codigo" aria-multiline="true" tabindex="0">const nome = "Aluno"</pre>
+    <p><a href="README.md">Descrição do conteúdo</a></p>
+</body>
+</html>
