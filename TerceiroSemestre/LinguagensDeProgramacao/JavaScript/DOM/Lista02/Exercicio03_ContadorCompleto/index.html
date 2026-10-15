@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!--
+Exercício 03 — Contador Completo
+Origem: Lista 02 do professor
+Enunciado:
+Crie uma página com um número exibido em um <span> (iniciando em 0) e três botões:
++1 → incrementa o contador
+-1 → decrementa o contador (não pode ficar negativo)
+Zerar → volta para 0
+O valor deve ser atualizado na tela a cada clique.
+-->
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador Completo</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+<h1>Contador</h1>
+<p>Valor: <span id="contador" aria-live="polite">0</span>
+</p>
+<button id="incrementar">+1</button>
+<button id="decrementar">-1</button>
+<button id="zerar">Zerar</button>
+<script src="script.js"></script>
+</body>
+</html>

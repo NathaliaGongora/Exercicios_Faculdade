@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--
+Exercício 09 — Sistema De Abas
+Origem: Lista 02 do professor
+Enunciado:
+Crie uma página com 3 abas no topo (ex.: "HTML", "CSS", "JavaScript") e uma área de conteúdo abaixo. Ao clicar em uma aba:
+O conteúdo correspondente deve ser exibido
+As outras abas devem ser ocultadas
+A aba ativa deve receber um destaque visual (ex.: fundo diferente)
+Os conteúdos podem ser textos simples explicando cada tecnologia.
+Dica para o aluno: use data-* attributes (ex.: data-aba="html") para associar cada botão ao seu conteúdo.
+-->
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema De Abas</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+<h1>Tecnologias Web</h1>
+<nav aria-label="Selecionar conteúdo">
+<button data-aba="html" class="ativa" aria-pressed="true" aria-controls="html">HTML</button>
+<button data-aba="css" aria-pressed="false" aria-controls="css">CSS</button>
+<button data-aba="javascript" aria-pressed="false" aria-controls="javascript">JavaScript</button>
+</nav>
+<section id="html" class="painel">
+<h2>HTML</h2>
+<p>Organiza a estrutura e o conteúdo da página.</p>
+</section>
+<section id="css" class="painel" hidden>
+<h2>CSS</h2>
+<p>Define a apresentação visual da página.</p>
+</section>
+<section id="javascript" class="painel" hidden>
+<h2>JavaScript</h2>
+<p>Adiciona comportamento e interação.</p>
+</section>
+<script src="script.js"></script>
+</body>
+</html>

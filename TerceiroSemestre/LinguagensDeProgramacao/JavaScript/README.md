@@ -5,7 +5,7 @@ Conteúdos organizados por tema. Cada tema tem seu README e cada exercício em u
 | Conteúdo | Exercícios |
 |---|---|
 | [Fundamentos](Fundamentos/README.md) | 10 exercícios da Lista 01 |
-| [DOM](DOM/README.md) | 5 atividades da lista e 5 complementares; executar no navegador |
+| [DOM](DOM/README.md) | Duas listas com 10 atividades cada; executar no navegador |
 | [Arrow functions](ArrowFunctions/README.md) | 5 exercícios da lista enviada e 5 complementares |
 
 ## Executar

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!--
+Exercício 08 — Galeria De Imagens
+Origem: Lista 02 do professor
+Enunciado:
+Crie uma página com uma imagem principal (pode usar uma URL de placeholder, como https://picsum.photos/200) e 3 botões com nomes de imagens diferentes. Cada botão deve:
+Alterar o atributo src da imagem usando setAttribute
+Alterar também o atributo width para um valor diferente
+Dica para o aluno: crie uma função trocarImagem(caminho, largura) e chame-a nos botões.
+-->
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria De Imagens</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+<h1>Galeria de imagens</h1>
+<p>
+<button data-imagem="azul.svg" data-largura="180" data-descricao="Círculo azul">Círculo</button>
+<button data-imagem="verde.svg" data-largura="240" data-descricao="Quadrado verde">Quadrado</button>
+<button data-imagem="laranja.svg" data-largura="300" data-descricao="Triângulo laranja">Triângulo</button>
+</p>
+<img id="principal" src="azul.svg" width="180" alt="Círculo azul">
+<script src="script.js"></script>
+</body>
+</html>

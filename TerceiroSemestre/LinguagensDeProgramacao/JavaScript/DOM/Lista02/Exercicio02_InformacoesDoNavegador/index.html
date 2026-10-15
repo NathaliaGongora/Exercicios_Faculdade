@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+Exercício 02 — Informacoes Do Navegador
+Origem: Lista 02 do professor
+Enunciado:
+Crie uma página HTML que exiba, dentro de uma <div>, as seguintes informações do ambiente do navegador:
+Nome/identificação do navegador (navigator.userAgent)
+Idioma do navegador (navigator.language)
+URL atual da página (location.href)
+-->
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informacoes Do Navegador</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+<h1>Informações do navegador</h1>
+<div id="informacoes">
+<p>
+<strong>Identificação:</strong> <span id="navegador">
+</span>
+</p>
+<p>
+<strong>Idioma:</strong> <span id="idioma">
+</span>
+</p>
+<p>
+<strong>URL:</strong> <span id="url">
+</span>
+</p>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

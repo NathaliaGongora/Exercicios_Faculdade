@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--
+Exercício 05 — Calculadora De IMC
+Origem: Lista 02 do professor
+Enunciado:
+Crie uma página com dois campos (peso e altura) e um botão "Calcular IMC". Ao clicar, exiba em uma <div>:
+O valor do IMC (peso / altura²)
+A classificação:
+IMC < 18,5 → "Abaixo do peso"
+18,5 ≤ IMC < 25 → "Peso normal"
+25 ≤ IMC < 30 → "Sobrepeso"
+IMC ≥ 30 → "Obesidade"
+Valide se os dois campos foram preenchidos; caso contrário, exiba alert("Preencha todos os campos!").
+-->
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora De IMC</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+<h1>Calculadora de IMC</h1>
+<label for="peso">Peso em kg</label>
+<input type="number" id="peso" min="0.01" step="any">
+<label for="altura">Altura em metros (ex.: 1,70)</label>
+<input type="number" id="altura" min="0.01" step="any">
+<button id="calcular">Calcular IMC</button>
+<div id="resultado" role="status">
+</div>
+<script src="script.js"></script>
+</body>
+</html>
