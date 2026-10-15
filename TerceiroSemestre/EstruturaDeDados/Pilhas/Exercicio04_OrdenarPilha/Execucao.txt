@@ -1,0 +1,14 @@
+Registro de execucao real em Java 17.
+Classe: Exercicio4Ordenacao
+
+Entradas usadas (uma por linha):
+5
+3
+-1
+2
+2
+5
+
+Saida capturada:
+Quantidade (0 a 100): Valor: Valor: Valor: Valor: Valor: Antes: [3, -1, 2, 2, 5]
+Ordem crescente: -1 2 2 3 5

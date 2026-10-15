@@ -1,0 +1,13 @@
+Registro de execucao real em Java 17.
+Classe: Main
+
+Entradas usadas (uma por linha):
+(sem entrada interativa)
+
+Saida capturada:
+Memoria alocada para a JVM: 136314880
+Memoria livre antes: 9116472
+Memoria livre depois: 8025896
+Diferenca observada: 1090576
+Memoria livre apos solicitar GC: 8070616
+Vetor ainda referenciado: 3.14

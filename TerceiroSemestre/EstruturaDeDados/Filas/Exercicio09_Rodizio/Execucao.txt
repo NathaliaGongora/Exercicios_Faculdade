@@ -1,0 +1,13 @@
+Registro de execucao real em Java 17.
+Classe: Main
+
+Entradas usadas (uma por linha):
+Ana
+Bruno
+Carla
+
+Saida capturada:
+Participante: Participante: Participante: Vez de Ana
+Vez de Bruno
+Vez de Carla
+Vez de Ana

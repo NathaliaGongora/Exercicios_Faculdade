@@ -1,0 +1,8 @@
+Registro de execucao real em Java 17.
+Classe: exe1Recursao
+
+Entradas usadas (uma por linha):
+13
+
+Saida capturada:
+Decimal nao negativo: Binario: 1101

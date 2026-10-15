@@ -1,0 +1,23 @@
+Registro de execucao real em Java 17.
+Classe: Main
+
+Entradas usadas (uma por linha):
+5
+1
+4
+2
+3
+
+Saida capturada:
+Valor: Valor: Valor: Valor: Valor: FIFO:
+5
+1
+4
+2
+3
+Prioridade:
+1
+2
+3
+4
+5

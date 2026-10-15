@@ -1,0 +1,42 @@
+Registro de execucao real em Java 17.
+Classe: MainPipeline
+
+Entradas usadas (uma por linha):
+9
+4
+4
+4
+4
+4
+4
+5
+6
+7
+8
+0
+
+Saida capturada:
+1 Final | 2 Inserir posicao | 3 Remover | 4 Avancar | 5 Voltar | 6 Atual | 7 Exibir | 8 Tamanho | 9 Padrao | 0 Sair
+Opcao: Backlog [Product Owner] -> Desenvolvimento [Time de Desenvolvimento] -> Code Review [Tech Lead] -> Testes [Time de Qualidade] -> Deploy [DevOps] -> Monitoramento [Operacoes] -> (inicio)
+1 Final | 2 Inserir posicao | 3 Remover | 4 Avancar | 5 Voltar | 6 Atual | 7 Exibir | 8 Tamanho | 9 Padrao | 0 Sair
+Opcao: Atual: Desenvolvimento - Time de Desenvolvimento
+1 Final | 2 Inserir posicao | 3 Remover | 4 Avancar | 5 Voltar | 6 Atual | 7 Exibir | 8 Tamanho | 9 Padrao | 0 Sair
+Opcao: Atual: Code Review - Tech Lead
+1 Final | 2 Inserir posicao | 3 Remover | 4 Avancar | 5 Voltar | 6 Atual | 7 Exibir | 8 Tamanho | 9 Padrao | 0 Sair
+Opcao: Atual: Testes - Time de Qualidade
+1 Final | 2 Inserir posicao | 3 Remover | 4 Avancar | 5 Voltar | 6 Atual | 7 Exibir | 8 Tamanho | 9 Padrao | 0 Sair
+Opcao: Atual: Deploy - DevOps
+1 Final | 2 Inserir posicao | 3 Remover | 4 Avancar | 5 Voltar | 6 Atual | 7 Exibir | 8 Tamanho | 9 Padrao | 0 Sair
+Opcao: Atual: Monitoramento - Operacoes
+1 Final | 2 Inserir posicao | 3 Remover | 4 Avancar | 5 Voltar | 6 Atual | 7 Exibir | 8 Tamanho | 9 Padrao | 0 Sair
+Opcao: Atual: Backlog - Product Owner
+1 Final | 2 Inserir posicao | 3 Remover | 4 Avancar | 5 Voltar | 6 Atual | 7 Exibir | 8 Tamanho | 9 Padrao | 0 Sair
+Opcao: Atual: Monitoramento - Operacoes
+1 Final | 2 Inserir posicao | 3 Remover | 4 Avancar | 5 Voltar | 6 Atual | 7 Exibir | 8 Tamanho | 9 Padrao | 0 Sair
+Opcao: Atual: Monitoramento - Operacoes
+1 Final | 2 Inserir posicao | 3 Remover | 4 Avancar | 5 Voltar | 6 Atual | 7 Exibir | 8 Tamanho | 9 Padrao | 0 Sair
+Opcao: Backlog [Product Owner] -> Desenvolvimento [Time de Desenvolvimento] -> Code Review [Tech Lead] -> Testes [Time de Qualidade] -> Deploy [DevOps] -> Monitoramento [Operacoes] -> (inicio)
+1 Final | 2 Inserir posicao | 3 Remover | 4 Avancar | 5 Voltar | 6 Atual | 7 Exibir | 8 Tamanho | 9 Padrao | 0 Sair
+Opcao: Quantidade: 6
+1 Final | 2 Inserir posicao | 3 Remover | 4 Avancar | 5 Voltar | 6 Atual | 7 Exibir | 8 Tamanho | 9 Padrao | 0 Sair
+Opcao: Programa encerrado.

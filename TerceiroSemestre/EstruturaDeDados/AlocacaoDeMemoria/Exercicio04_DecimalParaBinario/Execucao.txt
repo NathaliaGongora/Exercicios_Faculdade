@@ -1,0 +1,8 @@
+Registro de execucao real em Java 17.
+Classe: Main
+
+Entradas usadas (uma por linha):
+10
+
+Saida capturada:
+Decimal de 0 a 255: Binario: 00001010

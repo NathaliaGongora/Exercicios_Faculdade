@@ -1,0 +1,58 @@
+Registro de execucao real em Java 17.
+Classe: Lista.ListaLigada
+
+Entradas usadas (uma por linha):
+A
+1
+B
+2
+Z
+3
+X
+1
+7
+4
+5
+6
+1
+4
+1
+Novo
+7
+0
+
+Saida capturada:
+Primeiro valor: 1 Final | 2 Inicio | 3 Inserir posicao | 4 Remover inicio | 5 Remover final | 6 Remover posicao | 7 Exibir | 0 Sair
+Opcao: Valor: A -> B -> NULL
+Tamanho: 2
+1 Final | 2 Inicio | 3 Inserir posicao | 4 Remover inicio | 5 Remover final | 6 Remover posicao | 7 Exibir | 0 Sair
+Opcao: Valor: Z -> A -> B -> NULL
+Tamanho: 3
+1 Final | 2 Inicio | 3 Inserir posicao | 4 Remover inicio | 5 Remover final | 6 Remover posicao | 7 Exibir | 0 Sair
+Opcao: Valor: Posicao: Z -> X -> A -> B -> NULL
+Tamanho: 4
+1 Final | 2 Inicio | 3 Inserir posicao | 4 Remover inicio | 5 Remover final | 6 Remover posicao | 7 Exibir | 0 Sair
+Opcao: Z -> X -> A -> B -> NULL
+Tamanho: 4
+1 Final | 2 Inicio | 3 Inserir posicao | 4 Remover inicio | 5 Remover final | 6 Remover posicao | 7 Exibir | 0 Sair
+Opcao: X -> A -> B -> NULL
+Tamanho: 3
+1 Final | 2 Inicio | 3 Inserir posicao | 4 Remover inicio | 5 Remover final | 6 Remover posicao | 7 Exibir | 0 Sair
+Opcao: X -> A -> NULL
+Tamanho: 2
+1 Final | 2 Inicio | 3 Inserir posicao | 4 Remover inicio | 5 Remover final | 6 Remover posicao | 7 Exibir | 0 Sair
+Opcao: Posicao: X -> NULL
+Tamanho: 1
+1 Final | 2 Inicio | 3 Inserir posicao | 4 Remover inicio | 5 Remover final | 6 Remover posicao | 7 Exibir | 0 Sair
+Opcao: NULL
+Tamanho: 0
+1 Final | 2 Inicio | 3 Inserir posicao | 4 Remover inicio | 5 Remover final | 6 Remover posicao | 7 Exibir | 0 Sair
+Opcao: Valor: Novo -> NULL
+Tamanho: 1
+1 Final | 2 Inicio | 3 Inserir posicao | 4 Remover inicio | 5 Remover final | 6 Remover posicao | 7 Exibir | 0 Sair
+Opcao: Novo -> NULL
+Tamanho: 1
+1 Final | 2 Inicio | 3 Inserir posicao | 4 Remover inicio | 5 Remover final | 6 Remover posicao | 7 Exibir | 0 Sair
+Opcao: Novo -> NULL
+Tamanho: 1
+Programa encerrado.

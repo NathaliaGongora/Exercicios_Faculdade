@@ -1,0 +1,15 @@
+Registro de execucao real em Java 17.
+Classe: Main
+
+Entradas usadas (uma por linha):
+0
+0
+0
+0
+1
+0
+1
+0
+
+Saida capturada:
+Bit [0]: Bit [1]: Bit [2]: Bit [3]: Bit [4]: Bit [5]: Bit [6]: Bit [7]: Decimal: 10

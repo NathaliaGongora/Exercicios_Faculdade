@@ -1,0 +1,22 @@
+Registro de execucao real em Java 17.
+Classe: MenuRecursao
+
+Entradas usadas (uma por linha):
+1
+5
+2
+2
+4
+3
+13
+4
+
+Saida capturada:
+1 - Fatorial | 2 - Potencia | 3 - Binario | 4 - Sair
+Opcao: Numero: Fatorial: 120
+1 - Fatorial | 2 - Potencia | 3 - Binario | 4 - Sair
+Opcao: Base: Expoente: Potencia: 16
+1 - Fatorial | 2 - Potencia | 3 - Binario | 4 - Sair
+Opcao: Decimal: Binario: 1101
+1 - Fatorial | 2 - Potencia | 3 - Binario | 4 - Sair
+Opcao: Programa encerrado.

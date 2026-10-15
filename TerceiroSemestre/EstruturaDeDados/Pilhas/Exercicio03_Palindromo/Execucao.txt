@@ -1,0 +1,10 @@
+Registro de execucao real em Java 17.
+Classe: Exercicio3Palindromo
+
+Entradas usadas (uma por linha):
+A sacada da casa
+
+Saida capturada:
+Texto: PilhaArray: true
+PilhaArrayList: true
+Stack: true

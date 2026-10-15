@@ -1,0 +1,24 @@
+Registro de execucao real em Java 17.
+Classe: main.FilaPrioridade
+
+Entradas usadas (uma por linha):
+1
+30
+1
+10
+1
+20
+5
+2
+0
+
+Saida capturada:
+1 Enfileirar | 2 Desenfileirar | 3 Frente | 4 Tamanho | 5 Exibir | 0 Sair
+Opcao: Valor: 1 Enfileirar | 2 Desenfileirar | 3 Frente | 4 Tamanho | 5 Exibir | 0 Sair
+Opcao: Valor: 1 Enfileirar | 2 Desenfileirar | 3 Frente | 4 Tamanho | 5 Exibir | 0 Sair
+Opcao: Valor: 1 Enfileirar | 2 Desenfileirar | 3 Frente | 4 Tamanho | 5 Exibir | 0 Sair
+Opcao: [10, 20, 30]
+1 Enfileirar | 2 Desenfileirar | 3 Frente | 4 Tamanho | 5 Exibir | 0 Sair
+Opcao: Removido: 10
+1 Enfileirar | 2 Desenfileirar | 3 Frente | 4 Tamanho | 5 Exibir | 0 Sair
+Opcao: Programa encerrado.

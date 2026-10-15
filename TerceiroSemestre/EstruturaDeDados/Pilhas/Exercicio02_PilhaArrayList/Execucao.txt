@@ -1,0 +1,24 @@
+Registro de execucao real em Java 17.
+Classe: PilhaArrayList
+
+Entradas usadas (uma por linha):
+1
+10
+1
+20
+3
+2
+4
+0
+
+Saida capturada:
+1 Empilhar | 2 Desempilhar | 3 Topo | 4 Tamanho | 5 Exibir | 0 Sair
+Opcao: Valor: 1 Empilhar | 2 Desempilhar | 3 Topo | 4 Tamanho | 5 Exibir | 0 Sair
+Opcao: Valor: 1 Empilhar | 2 Desempilhar | 3 Topo | 4 Tamanho | 5 Exibir | 0 Sair
+Opcao: Topo: 20
+1 Empilhar | 2 Desempilhar | 3 Topo | 4 Tamanho | 5 Exibir | 0 Sair
+Opcao: Removido: 20
+1 Empilhar | 2 Desempilhar | 3 Topo | 4 Tamanho | 5 Exibir | 0 Sair
+Opcao: Tamanho: 1
+1 Empilhar | 2 Desempilhar | 3 Topo | 4 Tamanho | 5 Exibir | 0 Sair
+Opcao: Programa encerrado.

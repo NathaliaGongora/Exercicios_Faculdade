@@ -1,0 +1,12 @@
+Registro de execucao real em Java 17.
+Classe: Main
+
+Entradas usadas (uma por linha):
+relatorio
+lista
+nota
+
+Saida capturada:
+Documento: Documento: Documento: Imprimindo: relatorio
+Imprimindo: lista
+Imprimindo: nota

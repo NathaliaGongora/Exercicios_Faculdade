@@ -1,0 +1,10 @@
+Registro de execucao real em Java 17.
+Classe: Main
+
+Entradas usadas (uma por linha):
+1
+2
+3
+
+Saida capturada:
+Valor: Valor: Valor: Topo apos transferir: 1

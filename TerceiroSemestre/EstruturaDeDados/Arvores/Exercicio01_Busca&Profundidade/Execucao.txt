@@ -1,0 +1,23 @@
+Registro de execucao real em Java 17.
+Classe: Main
+
+Entradas usadas (uma por linha):
+7
+50
+35
+60
+12
+42
+57
+62
+42
+
+Saida capturada:
+Quantidade (0 a 100): Valor: Valor: Valor: Valor: Valor: Valor: Valor: 50 profundidade 0
+35 profundidade 1
+12 profundidade 2
+42 profundidade 2
+60 profundidade 1
+57 profundidade 2
+62 profundidade 2
+Buscar: Profundidade: 2

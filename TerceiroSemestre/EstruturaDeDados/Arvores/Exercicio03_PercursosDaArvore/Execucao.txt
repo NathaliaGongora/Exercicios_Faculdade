@@ -1,0 +1,10 @@
+Registro de execucao real em Java 17.
+Classe: Main
+
+Entradas usadas (uma por linha):
+(sem entrada interativa)
+
+Saida capturada:
+Pre-ordem: 5 3 1 2 4 8 7 6 9
+Em ordem: 1 2 3 4 5 6 7 8 9
+Pos-ordem: 2 1 4 3 6 7 9 8 5

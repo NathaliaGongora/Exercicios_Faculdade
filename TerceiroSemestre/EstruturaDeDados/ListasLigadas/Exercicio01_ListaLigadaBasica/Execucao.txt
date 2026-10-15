@@ -1,0 +1,9 @@
+Registro de execucao real em Java 17.
+Classe: ListaLigada
+
+Entradas usadas (uma por linha):
+(sem entrada interativa)
+
+Saida capturada:
+A -> B -> C -> NULL
+Tamanho: 3

@@ -1,0 +1,14 @@
+Registro de execucao real em Java 17.
+Classe: Exercicio6Notacoes
+
+Entradas usadas (uma por linha):
+2
+3
+4
+2
+
+Saida capturada:
+A: B: C: D: Infixa: ((A + B) * C) / D
+Prefixa: / * + A B C D
+Pos-fixa: A B + C * D /
+Resultado: 10.0

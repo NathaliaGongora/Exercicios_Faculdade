@@ -1,0 +1,16 @@
+Registro de execucao real em Java 17.
+Classe: Main
+
+Entradas usadas (uma por linha):
+10
+20
+30
+40
+50
+60
+70
+80
+
+Saida capturada:
+Valor [0]: Valor [1]: Valor [2]: Valor [3]: Valor [4]: Valor [5]: Valor [6]: Valor [7]: Original: [10, 20, 30, 40, 50, 60, 70, 80]
+Invertido: [80, 70, 60, 50, 40, 30, 20, 10]

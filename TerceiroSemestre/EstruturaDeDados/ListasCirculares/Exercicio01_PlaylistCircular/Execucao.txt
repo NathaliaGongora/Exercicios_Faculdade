@@ -1,0 +1,15 @@
+Registro de execucao real em Java 17.
+Classe: SpotifyPlaylist
+
+Entradas usadas (uma por linha):
+(sem entrada interativa)
+
+Saida capturada:
+Blinding Lights - The Weeknd
+Levitating - Dua Lipa
+Shape of You - Ed Sheeran
+Tocando: Blinding Lights - The Weeknd
+Tocando: Levitating - Dua Lipa
+Tocando: Shape of You - Ed Sheeran
+Tocando: Blinding Lights - The Weeknd
+Tocando: Shape of You - Ed Sheeran

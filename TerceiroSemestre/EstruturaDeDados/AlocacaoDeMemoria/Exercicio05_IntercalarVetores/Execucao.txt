@@ -1,0 +1,17 @@
+Registro de execucao real em Java 17.
+Classe: Main
+
+Entradas usadas (uma por linha):
+10
+20
+30
+40
+50
+1
+2
+3
+4
+5
+
+Saida capturada:
+Valor [0]: Valor [1]: Valor [2]: Valor [3]: Valor [4]: Valor [0]: Valor [1]: Valor [2]: Valor [3]: Valor [4]: Intercalado: [10, 1, 20, 2, 30, 3, 40, 4, 50, 5]

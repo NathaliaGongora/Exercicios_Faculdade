@@ -1,0 +1,17 @@
+Registro de execucao real em Java 17.
+Classe: Main
+
+Entradas usadas (uma por linha):
+3
+2
+X
+X
+Y
+Y
+Z
+Z
+
+Saida capturada:
+Linhas (1 a 20): Colunas (1 a 20): Texto [0][0]: Texto [0][1]: Texto [1][0]: Texto [1][1]: Texto [2][0]: Texto [2][1]: |	X	|	X	|
+|	Y	|	Y	|
+|	Z	|	Z	|

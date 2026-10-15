@@ -1,0 +1,9 @@
+Registro de execucao real em Java 17.
+Classe: exe2Recursao
+
+Entradas usadas (uma por linha):
+3
+4
+
+Saida capturada:
+Base: Expoente: Resultado: 81

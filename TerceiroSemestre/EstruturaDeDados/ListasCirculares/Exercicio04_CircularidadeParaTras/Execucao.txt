@@ -1,0 +1,8 @@
+Registro de execucao real em Java 17.
+Classe: Main
+
+Entradas usadas (uma por linha):
+(sem entrada interativa)
+
+Saida capturada:
+Atual: C - Equipe

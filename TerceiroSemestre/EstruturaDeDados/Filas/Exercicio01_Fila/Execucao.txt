@@ -1,0 +1,21 @@
+Registro de execucao real em Java 17.
+Classe: main.Fila
+
+Entradas usadas (uma por linha):
+1
+Ana
+1
+Bruno
+2
+5
+0
+
+Saida capturada:
+1 Enfileirar | 2 Desenfileirar | 3 Frente | 4 Tamanho | 5 Exibir | 0 Sair
+Opcao: Valor: 1 Enfileirar | 2 Desenfileirar | 3 Frente | 4 Tamanho | 5 Exibir | 0 Sair
+Opcao: Valor: 1 Enfileirar | 2 Desenfileirar | 3 Frente | 4 Tamanho | 5 Exibir | 0 Sair
+Opcao: Removido: Ana
+1 Enfileirar | 2 Desenfileirar | 3 Frente | 4 Tamanho | 5 Exibir | 0 Sair
+Opcao: [Bruno]
+1 Enfileirar | 2 Desenfileirar | 3 Frente | 4 Tamanho | 5 Exibir | 0 Sair
+Opcao: Programa encerrado.

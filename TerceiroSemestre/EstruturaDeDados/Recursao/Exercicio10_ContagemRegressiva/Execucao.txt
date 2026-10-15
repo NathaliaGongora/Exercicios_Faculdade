@@ -1,0 +1,11 @@
+Registro de execucao real em Java 17.
+Classe: Main
+
+Entradas usadas (uma por linha):
+3
+
+Saida capturada:
+n: 3
+2
+1
+0

@@ -1,0 +1,8 @@
+Registro de execucao real em Java 17.
+Classe: Exercicio5Balanceamento
+
+Entradas usadas (uma por linha):
+((A + B) * C)
+
+Saida capturada:
+Expressao: Balanceada: true

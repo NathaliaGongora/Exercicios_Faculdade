@@ -1,0 +1,12 @@
+Registro de execucao real em Java 17.
+Classe: Main
+
+Entradas usadas (uma por linha):
+10
+3
+1
+2
+3
+
+Saida capturada:
+Valor do pai: Quantidade de filhos (0 a 100): Filho: Filho: Filho: Soma dos filhos: 6
