@@ -25,19 +25,8 @@ Requisitos podem ser registrados em linguagem natural, templates estruturados, d
 
 A validação verifica validade, consistência, completude, realismo e verificabilidade. Revisões, protótipos e casos de teste ajudam nessa conferência. O gerenciamento de requisitos organiza identificação, mudanças, rastreabilidade e apoio de ferramentas durante a evolução do sistema.
 
-## Exemplo do Lumio: RF01 — Enviar conta de energia
+## Problema
 
-| Campo | Especificação |
-|---|---|
-| Função | Permitir que o usuário envie uma conta de energia para o Lumio registrar e analisar as informações. |
-| Descrição | O usuário envia a conta; o sistema identifica os dados principais e os apresenta para conferência antes de salvar. |
-| Entradas | Arquivo da conta de energia. |
-| Fonte | Conta enviada pelo usuário. |
-| Saídas | Consumo em kWh, valor da conta e mês de referência identificados. |
-| Destino | Sistema Lumio e unidade consumidora escolhida. |
-| Ação | Receber o arquivo, extrair os dados, permitir a conferência e salvar após confirmação. |
-| Requisitos | O usuário deve estar autenticado e ter uma unidade consumidora cadastrada para vincular a conta. |
-| Pré-condição | Usuário autenticado e unidade consumidora cadastrada. |
-| Pós-condição | Dados da conta salvos e disponíveis no histórico para consulta de consumo e gastos. |
+[Lumio — RF01: Enviar conta de energia](Lumio/README.md)
 
-O requisito foi estruturado a partir do exemplo enviado. A extração automática dos dados é uma proposta de interpretação da ação mostrada na atividade; os dados exatos e regras de validação podem ser refinados com stakeholders.
+[Voltar para Análise de Sistemas](../README.md)
