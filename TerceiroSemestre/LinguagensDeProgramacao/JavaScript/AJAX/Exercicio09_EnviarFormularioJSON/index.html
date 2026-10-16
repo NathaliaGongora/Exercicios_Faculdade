@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!--
+Exercício 09 — EnviarFormularioJSON
+Origem: Prática complementar aos slides
+Leia nome e e-mail de um formulário com FormData. Envie POST em JSON usando method, headers e body. Verifique o resultado HTTP e mostre o id devolvido pela API. Trate falhas e restaure os controles.
+-->
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EnviarFormularioJSON</title>
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+<h1>Cadastro de cliente — demonstração</h1>
+<form id="formulario">
+<label for="nome">Nome</label>
+<input id="nome" name="nome" required>
+<label for="email">E-mail</label>
+<input id="email" name="email" type="email" required>
+<button id="salvar" type="submit">Salvar</button>
+</form>
+<p id="mensagem" role="status"></p>
+<p class="carregar" role="status">Carregando...</p>
+<script src="configuracao.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+Exercício 02 — ConsultaComPromise
+Origem: Prática complementar baseada nos exemplos do professor
+Reescreva consultaCEP com Promise e then. Retorne a promessa para que pesquisar possa aguardar seu resultado. Preserve a validação, as mensagens e o carregamento.
+-->
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ConsultaComPromise</title>
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+<h1>AJAX - Consulta CEP</h1>
+<form id="formulario">
+    <fieldset>
+        <legend>Consulta endereço</legend>
+        <label for="cep">Digite o CEP</label>
+        <input type="text" name="cep" id="cep" inputmode="numeric">
+        <button type="submit" id="pesquisar">Consultar</button>
+    </fieldset>
+</form>
+<form>
+    <fieldset>
+        <legend>Endereço</legend>
+        <p class="carregar" role="status" style="color: red; visibility: hidden;">Carregando...</p>
+        <p><label for="endereco">Endereço:</label><input type="text" name="endereco" id="endereco"></p>
+        <p><label for="bairro">Bairro:</label><input type="text" name="bairro" id="bairro"></p>
+        <p><label for="estado">Estado:</label><input type="text" name="estado" id="estado"></p>
+    </fieldset>
+</form>
+<p id="mensagem" role="status"></p>
+<script src="promise.js"></script>
+</body>
+</html>

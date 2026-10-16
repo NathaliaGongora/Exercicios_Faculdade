@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<!--
+Exercício 01 — Previsão do tempo
+Origem: lista do professor — 10 - AJAX Previsao do Tempo-1.docx
+Crie uma página de consulta de previsão do tempo conforme o modelo da lista. Ao digitar o nome da cidade e clicar em “Buscar Clima”, apresente as informações retornadas por https://wttr.in/Sorocaba?format=3 para a cidade informada.
+-->
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de Clima</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <main>
+        <h1>Consulta de Clima</h1>
+        <form id="formulario">
+            <label for="cidade">Cidade</label>
+            <input type="text" id="cidade" placeholder="Digite a cidade" autocomplete="off">
+            <button type="submit" id="buscar">Buscar Clima</button>
+        </form>
+        <p id="resultado" role="status"></p>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

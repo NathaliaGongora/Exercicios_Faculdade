@@ -1,0 +1,8 @@
+body { font-family: Arial, sans-serif; margin: 24px; }
+a:focus, a:hover { background: #e2edff; }
+.conteudo { border: 1px solid #a9b7cc; padding: 20px; min-height: 150px; }
+table { border-collapse: collapse; }
+th, td { border: 1px solid #789; padding: 10px; }
+.cards { display: flex; gap: 16px; flex-wrap: wrap; }
+.card { padding: 20px; background: #dbe9ff; }
+label { display: block; margin-top: 12px; }

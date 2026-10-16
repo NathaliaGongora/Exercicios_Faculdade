@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!--
+Exercício 10 — Menu com fetch
+Origem: prática complementar baseada no exemplo do professor.
+Crie um menu com quatro links. Intercepte o clique com preventDefault, busque o HTML com fetch e response.text e apresente o conteúdo na div da página, sem navegação completa. Trate falha HTTP e restaure o estado de carregamento.
+-->
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJAX - Menu de opções</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <h1>AJAX - Menu de opções</h1>
+    <nav aria-label="Conteúdos de demonstração">
+        <ul>
+            <li><a href="tabela.html">Tabela</a></li>
+            <li><a href="imagem.html">Imagem</a></li>
+            <li><a href="flexbox.html">Flexbox</a></li>
+            <li><a href="formulario.html">Formulário</a></li>
+        </ul>
+    </nav>
+    <p id="mensagem" role="status">Escolha um conteúdo.</p>
+    <div class="conteudo" aria-busy="false"></div>
+    <script src="script.js"></script>
+</body>
+</html>

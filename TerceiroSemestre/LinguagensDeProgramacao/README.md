@@ -7,7 +7,7 @@ Material de desenvolvimento web organizado por linguagem e conteúdo. Cada área
 | [Fundamentos da Web](FundamentosDaWeb/README.md) | Visão geral, cliente/servidor, HTTP e web services |
 | [HTML](HTML/README.md) | Introdução ao HTML, HTML5, formulários e containers |
 | [CSS](CSS/README.md) | Fundamentos de CSS, layout e Flexbox |
-| [JavaScript](JavaScript/README.md) | Fundamentos, arrow functions e manipulação do DOM |
+| [JavaScript](JavaScript/README.md) | Fundamentos, arrow functions, DOM e AJAX/Fetch |
 
 Exemplo de caminho: **JavaScript → ArrowFunctions → Exercicio01_ClassificarTriangulos → script.js**.
 
