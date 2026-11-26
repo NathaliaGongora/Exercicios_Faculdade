@@ -17,7 +17,7 @@ Exercícios em Swift para praticar os conceitos iniciais da trilha de algoritmos
 | [09](Exercicio09.swift) | Pedido de papelaria | Desconto, estoque e pagamento |
 | [10](Exercicio10.swift) | Acompanhamento de curso | Média, frequência e condições |
 
-Os exercícios 01 a 07 foram enviados por Nathália. Os exercícios 08 a 10 são exemplos complementares preparados com auxílio de IA para ampliar a prática; não são identificados como atividades oficiais do curso.
+Os exercícios 01 a 07 foram enviados por Nathália. Os exercícios 08 a 10 são exemplos complementares para ampliar a prática e não são atividades oficiais do curso.
 
 ## Como executar
 
