@@ -1,6 +1,6 @@
 # Exercícios da Faculdade
 
-Repositório acadêmico com exercícios e avaliações desenvolvidos durante o curso de Análise e Desenvolvimento de Sistemas na FACENS.
+Repositório de estudos com exercícios e avaliações do curso de Análise e Desenvolvimento de Sistemas na FACENS e atividades de cursos complementares.
 
 O conteúdo está organizado por semestre e tema para registrar minha evolução em programação sem misturar exercícios introdutórios com projetos completos.
 
@@ -9,10 +9,12 @@ O conteúdo está organizado por semestre e tema para registrar minha evolução
 - [1º semestre — Construção de Algoritmos](PrimeiroSemestre/README.md)
 - [2º semestre — Programação Orientada a Objetos e Banco de Dados](SegundoSemestre/README.md)
 - [3º semestre — Análise de Sistemas e Linguagens de Programação](TerceiroSemestre/README.md)
+- [Curso complementar — HackaTruck: conceitos iniciais de algoritmos em Swift](Cursos/HackaTruck/Algoritmos/Conceitos-Iniciais/README.md)
 
 ## Tecnologias e conceitos
 
 - Java
+- Swift
 - Lógica de programação
 - Entrada de dados com `Scanner`
 - Estruturas condicionais e de seleção
