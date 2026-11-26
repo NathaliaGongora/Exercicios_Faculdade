@@ -9,7 +9,7 @@ O conteúdo está organizado por semestre e tema para registrar minha evolução
 - [1º semestre — Construção de Algoritmos](PrimeiroSemestre/README.md)
 - [2º semestre — Programação Orientada a Objetos e Banco de Dados](SegundoSemestre/README.md)
 - [3º semestre — Análise de Sistemas e Linguagens de Programação](TerceiroSemestre/README.md)
-- [Curso complementar — HackaTruck: conceitos iniciais de algoritmos em Swift](Cursos/HackaTruck/Algoritmos/Conceitos-Iniciais/README.md)
+- [Cursos complementares](Cursos/README.md)
 
 ## Tecnologias e conceitos
 
