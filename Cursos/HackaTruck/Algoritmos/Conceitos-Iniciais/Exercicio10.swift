@@ -1,7 +1,7 @@
 /* Exercício complementar 10 — Acompanhamento de curso
 Calcule a média de três notas e a porcentagem de aulas frequentadas.
 Verifique os requisitos de desempenho e frequência, sem usar condicionais.
-Exemplo complementar elaborado com auxílio de IA para prática.
+Exercício complementar para prática.
 */
 let nome: String = "Ana"
 let nota1: Double = 8.0
