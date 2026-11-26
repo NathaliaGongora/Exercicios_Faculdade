@@ -1,7 +1,7 @@
 /* Exercício complementar 08 — Consumo de energia
 Calcule o consumo mensal de um aparelho e o custo estimado.
 Considere 1.500 W, 2 horas por dia, 30 dias e tarifa de R$ 0,90 por kWh.
-Exemplo complementar elaborado com auxílio de IA para prática.
+Exercício complementar para prática.
 */
 let potenciaWatts: Double = 1500
 let horasPorDia: Double = 2
