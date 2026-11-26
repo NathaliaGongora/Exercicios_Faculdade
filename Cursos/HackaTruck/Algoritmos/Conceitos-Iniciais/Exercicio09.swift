@@ -1,7 +1,7 @@
 /* Exercício complementar 09 — Pedido de uma papelaria
 Calcule o valor de um pedido, o desconto e o saldo após o pagamento.
 Verifique se o pagamento cobre o total e se há produtos disponíveis.
-Exemplo complementar elaborado com auxílio de IA para prática.
+Exercício complementar para prática.
 */
 let precoUnitario: Double = 12.50
 let quantidade: Int = 4
